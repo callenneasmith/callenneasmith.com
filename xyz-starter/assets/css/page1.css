@@ -1,0 +1,66 @@
+body {
+	font-family: Helvetica,sans-serif;
+	font-size: 120px;
+	text-align: left;
+	color:white;
+	background-color:orangered;
+	letter-spacing:-8px;
+	padding:40px;
+	line-height:110px;
+}
+
+a {
+	color:red;
+}
+
+
+.object {
+	padding-bottom:20px;
+	padding-right:20px;
+	text-align:right;
+	color:#191919;
+}
+
+
+.place {
+	padding-bottom:20px;
+	padding-left:20px;
+}
+
+
+.name {
+	padding-bottom:20px;
+	padding-right:20px;
+	text-align:right;
+	color:#191919;
+	padding-bottom:80px;
+}
+
+.info {
+	padding-top:80px;
+	font-size:60px;
+	line-height:50px;
+	letter-spacing:-3px;
+	border-top: 2px solid white;
+}
+
+
+.word1 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word2 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word3 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+

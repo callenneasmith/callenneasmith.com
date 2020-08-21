@@ -1,0 +1,164 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 100px;
+	text-align: left;
+	letter-spacing:-6px;
+	color:white;
+	background-color:#191919;
+}
+
+
+.object {
+	border-bottom:2px white solid;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	animation: objectbg 5s infinite alternate;
+}
+
+@keyframes objectbg {
+	0% {
+		background-color:#191919;
+	}
+	50% {
+		background-color:#BA1200;
+	}
+	100% {
+		background-color:#191919;
+	}
+}
+
+
+.place {
+	border-bottom:2px white solid;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	animation: placebg 5s infinite alternate;
+	animation-delay: 0.5s;
+}
+
+@keyframes placebg {
+	0% {
+		background-color:#191919;
+	}
+	50% {
+		background-color:navy;
+	}
+	100% {
+		background-color:#191919;
+	}
+}
+
+
+.name {
+	border-bottom:2px white solid;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:60px;
+	animation: namebg 5s infinite alternate;
+	animation-delay: 1s;
+}
+
+@keyframes namebg {
+	0% {
+		background-color:#191919;
+	}
+	50% {
+		background-color:#9DD1F1;
+	}
+	100% {
+		background-color:#191919;
+	}
+}
+
+.date {
+	text-align:right;
+	border-bottom:2px white solid;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	animation: datebg 5s infinite alternate;
+	animation-delay: 1.5s;
+}
+
+@keyframes datebg {
+	0% {
+		background-color:#191919;
+	}
+	50% {
+		background-color:#BA1200;
+	}
+	100% {
+		background-color:#191919;
+	}
+}
+
+
+.title {
+	text-align:right;
+	border-bottom:2px white solid;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:40px;
+	animation: titlebg 5s infinite alternate;
+	animation-delay: 2s;
+}
+
+@keyframes titlebg {
+	0% {
+		background-color:#191919;
+	}
+	50% {
+		background-color:navy;
+	}
+	100% {
+		background-color:#191919;
+	}
+}
+
+
+.mada {
+	text-align:right;
+	letter-spacing:-5px;
+	border-bottom:2px white solid;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:60px;
+	animation: madabg 5s infinite alternate;
+	animation-delay: 2.5s;
+}
+
+@keyframes madabg {
+	0% {
+		background-color:#191919;
+	}
+	50% {
+		background-color:#9DD1F1;
+	}
+	100% {
+		background-color:#191919;
+	}
+}
+
+
+
+.word1 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word2 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word3 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+
