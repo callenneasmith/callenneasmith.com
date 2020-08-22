@@ -40,3 +40,10 @@ a {
 	width:49%;
 	overflow:scroll;
 }
+
+.image1 {
+	background:url(assets/bedford.jpg); 
+	height:100%;
+	background-repeat:none;
+}
+
