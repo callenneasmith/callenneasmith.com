@@ -1,6 +1,4 @@
-* {
-	outline:2px solid cyan;
-}
+
 
 body {
 	font-family: times;
@@ -29,7 +27,7 @@ a {
 	display:inline-block;
 	vertical-align:top;
 	height:85vh;
-	width:20%;
+	width:50%;
 }
 
 .col2 {
@@ -39,7 +37,16 @@ a {
 
 	display:inline-block;
 	height:85vh;
-	width:79%;
+	width:49%;
 	overflow:scroll;
 }
+
+.img1 {
+	height:100%;
+	width:100%;
+	background-image:url(callenneasmith.github.io/assets/images/collage.png);
+	background-size:contain;
+	background-repeat:none;
+}
+
 
