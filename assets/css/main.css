@@ -3,7 +3,7 @@
 body {
 	font-family: times;
 	font-size: 24px;
-	color:#191919;
+	color:#191919;;
 	letter-spacing:-1px;
 }
 
@@ -12,7 +12,7 @@ a {
 }
 
 .header {
-	padding-left:20px;
+	padding-left:10px;
 
 	width:100vw;
 	font-size:120px;
@@ -22,7 +22,7 @@ a {
 
 .col1 {
 	padding-top:20px;
-	padding-left:20px;
+	padding-left:15px;
 
 	display:inline-block;
 	vertical-align:top;
@@ -32,7 +32,7 @@ a {
 
 .col2 {
 	padding-top:20px;
-	padding-left:20px;
+	padding-left:15px;
 
 	display:inline-block;
 	height:85vh;
