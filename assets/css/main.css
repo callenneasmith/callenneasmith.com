@@ -1,11 +1,40 @@
 
 
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: times;
+	font-size: 24px;
+	color:#191919;
+	letter-spacing:-1px;
 }
 
 a {
-	color:red;
+	color:blue;
 }
 
+.header {
+	padding-left:20px;
+
+	width:100vw;
+	font-size:120px;
+	letter-spacing:-6px;
+	border-bottom:2px solid #191919;
+}
+
+.col1 {
+	padding-top:20px;
+	padding-left:20px;
+
+	display:inline-block;
+	vertical-align:top;
+	height:85vh;
+	width:20vw;
+}
+
+.col2 {
+	padding-top:20px;
+	padding-left:20px;
+
+	display:inline-block;
+	height:85vh;
+	width:79.6vw;
+}
