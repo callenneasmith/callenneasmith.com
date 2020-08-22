@@ -1,4 +1,6 @@
-
+* {
+	outline:2px solid cyan;
+}
 
 body {
 	font-family: times;
@@ -27,19 +29,17 @@ a {
 	display:inline-block;
 	vertical-align:top;
 	height:85vh;
-	width:20vw;
+	width:20%;
 }
 
 .col2 {
 	padding-top:20px;
 	padding-left:15px;
+	padding-right:15px;
 
 	display:inline-block;
 	height:85vh;
-	width:79.6vw;
+	width:79%;
+	overflow:scroll;
 }
 
-.image1 {
-	background-image:url("callenneasmith.github.io/assets/images/Bedford.jpg");
-	background-size:cover;
-}
