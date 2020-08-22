@@ -39,10 +39,7 @@ a {
 	width:79.6vw;
 }
 
-.img {
-	width:100%;
-	height:100%
-	margin:auto;
-	display:block;
+.image1 {
+	background-image:url("callenneasmith.github.io/assets/images/Bedford.jpg");
+	background-size:cover;
 }
-
