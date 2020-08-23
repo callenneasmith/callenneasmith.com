@@ -2,7 +2,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 6vw;
 	text-align: left;
-	letter-spacing:-6px;
+	letter-spacing:-0.4vw;
 	color:white;
 	background-color:#191919;
 }
@@ -120,7 +120,6 @@ body {
 
 .mada {
 	text-align:right;
-	letter-spacing:-5px;
 	border-bottom:2px white solid;
 	padding-top:20px;
 	padding-bottom:20px;
