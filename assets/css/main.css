@@ -42,8 +42,13 @@ a {
 }
 
 .image1 {
-	background-image:url(callenneasmith.github.io/assets/Bedford.jpg); 
-	height:100%;
+	background-image:url(callenneasmith.github.io/assets/Bedford.jpg);
+	background-color:#191919;
+	height:500px;
 	background-repeat:none;
 }
+
+
+
+
 
