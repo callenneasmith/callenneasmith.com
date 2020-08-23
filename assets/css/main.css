@@ -135,8 +135,8 @@ a:hover {
 .image1 {
 	background-image:url(Bedford.jpg);
 	background-repeat:no-repeat;
-	background-color:none;
-	height:45vw;
+	background-color:white;
+	height:50vw;
 	background-position:top;
 	background-size:cover;
 
