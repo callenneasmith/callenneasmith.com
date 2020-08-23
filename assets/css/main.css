@@ -187,3 +187,57 @@ a:hover {
 }
 
 
+.stick1 {
+	position:fixed;
+	background-color:crimson;
+	right:100px;
+	top:200px;
+	text-align:center;
+
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+	transform-origin:center;
+	transform:rotate(30deg);
+
+	width:400px;
+
+	animation: pulse 3s infinite alternate;
+	animation-delay:1s;
+}
+
+.stick2 {
+	position:fixed;
+	background-color:lime;
+	left:100px;
+	top:500px;
+	text-align:center;
+
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+	transform-origin:center;
+	transform:rotate(-30deg);
+
+	width:400px;
+
+	animation: pulse 3s infinite alternate;
+}
+
+@keyframes pulse {
+	0% {
+		opacity:0%;
+	}
+	100% {
+		opacity:100%;
+	}
+}
+
+
+
+
+
