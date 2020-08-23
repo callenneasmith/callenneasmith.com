@@ -1,9 +1,10 @@
 
 
 body {
-	font-family: times;
-	font-size: 24px;
-	color:#191919;;
+	font-family:HelveticaNeue-Light;
+	font-size: 50px;
+	color:white;
+	background-color:#191919;
 	letter-spacing:-1px;
 }
 
@@ -17,38 +18,84 @@ a {
 	width:100vw;
 	font-size:120px;
 	letter-spacing:-6px;
-	border-bottom:2px solid #191919;
+	border-bottom:2px solid ivory;
 }
 
 .col1 {
-	padding-top:20px;
+	padding-top:15px;
 	padding-left:15px;
 
 	display:inline-block;
 	vertical-align:top;
 	height:85vh;
-	width:50%;
+	width:49%;
 }
 
 .col2 {
-	padding-top:20px;
+	padding-top:15px;
 	padding-left:15px;
 	padding-right:15px;
 
+	border-left:2px solid ivory;
 	display:inline-block;
 	height:85vh;
-	width:49%;
+	width:50%;
 	overflow:scroll;
 }
 
+
 .image1 {
-	background-image:url(callenneasmith.github.io/assets/Bedford.jpg);
-	background-color:#191919;
-	height:500px;
-	background-repeat:none;
+	background-image:url(Bedford.jpg);
+	background-repeat:no-repeat;
+	background-color:none;
+	height:47.5vw;
+	background-position:top;
+	background-size:cover;
+
+	padding-top:15px;
+
 }
 
+.image2 {
+	background-image:url(collage.png);
+	background-repeat:no-repeat;
+	background-color:white;
+	height:55vw;
+	background-position:top;
+	background-size:cover;
+}
 
+.image3 {
+	background-image:url(mosh.jpg);
+	background-repeat:no-repeat;
+	background-color:white;
+	height:55vw;
+	background-position:top;
+	background-size:cover;
 
+	padding-top:10px;
+}
+
+.image4 {
+	background-image:url(dooley.jpg);
+	background-repeat:no-repeat;
+	background-color:white;
+	height:55vw;
+	background-position:top;
+	background-size:cover;
+
+	padding-top:10px;
+}
+
+.image5 {
+	background-image:url(bermuda.jpg);
+	background-repeat:no-repeat;
+	background-color:white;
+	height:55vw;
+	background-position:top;
+	background-size:cover;
+
+	padding-top:10px;
+}
 
 
