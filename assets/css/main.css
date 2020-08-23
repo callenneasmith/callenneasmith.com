@@ -21,6 +21,8 @@ a {
 	border-bottom:2px solid ivory;
 }
 
+/* left column */
+
 .col1 {
 	padding-top:15px;
 	padding-left:15px;
@@ -28,8 +30,10 @@ a {
 	display:inline-block;
 	vertical-align:top;
 	height:85vh;
-	width:49%;
+	width:50%;
 }
+
+/* right column */
 
 .col2 {
 	padding-top:15px;
@@ -39,7 +43,7 @@ a {
 	border-left:2px solid ivory;
 	display:inline-block;
 	height:85vh;
-	width:50%;
+	width:49%;
 	overflow:scroll;
 }
 
@@ -48,7 +52,7 @@ a {
 	background-image:url(Bedford.jpg);
 	background-repeat:no-repeat;
 	background-color:none;
-	height:47.5vw;
+	height:45vw;
 	background-position:top;
 	background-size:cover;
 
@@ -60,7 +64,7 @@ a {
 	background-image:url(collage.png);
 	background-repeat:no-repeat;
 	background-color:white;
-	height:55vw;
+	height:50vw;
 	background-position:top;
 	background-size:cover;
 }
@@ -69,7 +73,7 @@ a {
 	background-image:url(mosh.jpg);
 	background-repeat:no-repeat;
 	background-color:white;
-	height:55vw;
+	height:50vw;
 	background-position:top;
 	background-size:cover;
 
@@ -80,7 +84,7 @@ a {
 	background-image:url(dooley.jpg);
 	background-repeat:no-repeat;
 	background-color:white;
-	height:55vw;
+	height:50vw;
 	background-position:top;
 	background-size:cover;
 
@@ -91,7 +95,7 @@ a {
 	background-image:url(bermuda.jpg);
 	background-repeat:no-repeat;
 	background-color:white;
-	height:55vw;
+	height:50vw;
 	background-position:top;
 	background-size:cover;
 
