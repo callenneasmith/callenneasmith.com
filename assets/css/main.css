@@ -89,6 +89,10 @@ a:hover {
 	border-bottom:2px solid #191919;
 }
 
+.block1:hover a {
+	color:blue;
+}
+
 .wip {
 	padding-bottom:25px;
 	padding-top:25px;
