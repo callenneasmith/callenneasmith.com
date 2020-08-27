@@ -1,8 +1,8 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 120px;
+	font-size: 8vw;
 	text-align: left;
-	letter-spacing:-6px;
+	letter-spacing:-0.6vw;
 }
 
 
@@ -30,9 +30,9 @@ body {
 	color:white;
 	background-color:#191919;
 	padding-left:20px;
-	font-size:60px;
-	line-height:50px;
-	letter-spacing:-2px;
+	font-size:3.5vw;
+	line-height:3vw;
+	letter-spacing:-0.2vw;
 	padding-top:10px;
 	padding-bottom:10px;
 }
@@ -58,43 +58,43 @@ body {
 
 .repeater1 {
 	background-color:#577399;
-	padding-left:600px;
+	padding-left:40vw;
 }
 
 .repeater2 {
 	background-color:#495867;
-	padding-left:500px;
+	padding-left:35vw;
 }
 
 .repeater3 {
 	background-color:#CEFF1A;
-	padding-left:400px;
+	padding-left:30vw;
 }
 
 .repeater4 {
 	background-color:#BDD5EA;
-	padding-left:300px;
+	padding-left:25vw;
 }
 
 
 .rep1 {
 	background-color:#577399;
-	padding-left:350px;
+	padding-left:22vw;
 }
 
 .rep2 {
 	background-color:#495867;
-	padding-left:450px;
+	padding-left:27vw;
 }
 
 .rep3 {
 	background-color:#CEFF1A;
-	padding-left:550px;
+	padding-left:32vw;
 }
 
 .rep4 {
 	background-color:#BDD5EA;
-	padding-left:650px;
+	padding-left:37vw;
 }
 
 
