@@ -94,7 +94,8 @@ a:hover {
 }
 
 .block1:hover a {
-	color:blue;
+	color:white;
+	text-decoration:underline;
 }
 
 .wip {
