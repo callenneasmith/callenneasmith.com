@@ -3,19 +3,19 @@
 body {
 	font-family:HelveticaNeue-Light;
 	font-size:80px;
-	color:white;
-	background-color:#191919;
-	letter-spacing:-1px;
+	color:#191919;
+	background-color:white;
+	letter-spacing:-2px;
 	height:15vh;
 }
 
 a:link {
-  color:white;
+  color:#191919;
   text-decoration:none;
 }
 
 a:visited {
-  color:white;
+  color:#191919;
   text-decoration:none;
 }
 
@@ -29,10 +29,10 @@ a:hover {
 	padding-left:15px;
 
 	width:100vw;
-	height:18vh;
-	font-size:120px;
+	height:16vh;
+	font-size:110px;
 	letter-spacing:-6px;
-	border-bottom:2px solid ivory;
+	border-bottom:2px solid #191919;
 }
 
 .header:hover {
@@ -41,13 +41,13 @@ a:hover {
 	padding-left:15px;
 
 	width:100vw;
-	height:18vh;
+	height:16vh;
 	font-size:120px;
 	letter-spacing:-6px;
-	border-bottom:2px solid white;
+	border-bottom:2px solid #191919;
 
-	background-color:white;
-	color:#191919;
+	background-color:#191919;
+	color:white;
 
 	font-family:times;
 	font-style:italic;
@@ -62,7 +62,7 @@ a:hover {
 /* left column */
 
 .col1 {
-	height:82vh;
+	height:84vh;
 	width:50%;
 	overflow:scroll;
 
@@ -73,9 +73,9 @@ a:hover {
 	padding-bottom:25px;
 	padding-top:25px;
 	padding-left:15px;
-	color:white;
+	color:#191919;
 
-	border-bottom:2px solid white;
+	border-bottom:2px solid #191919;
 }
 
 .block1:hover {
@@ -83,14 +83,14 @@ a:hover {
 	padding-top:25px;
 	padding-left:15px;
 
-	background-color:white;
-	color:#191919;
+	background-color:#191919;
+	color:white;
 
 	font-family:times;
 	font-style:italic;
 	letter-spacing:-2px;
 
-	border-bottom:2px solid #191919;
+	border-bottom:2px solid white;
 }
 
 .block1:hover a {
@@ -111,10 +111,28 @@ a:hover {
 	padding-top:15px;
 	padding-left:15px;
 	padding-right:15px;
+	padding-bottom:15px;
 
-	border-left:2px solid ivory;
-	border-bottom:2px solid ivory;
-	height:82vh;
+	border-left:2px solid #191919;
+	height:84vh;
+	width:50%;
+	overflow:scroll;
+	position:fixed;
+
+	right:0px;
+}
+
+.col2:hover {
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+
+	background-color:#191919;
+
+	border-left:2px solid #191919;
+	border-bottom:2px solid #191919;
+	height:84vh;
 	width:50%;
 	overflow:scroll;
 	position:fixed;
@@ -183,7 +201,8 @@ a:hover {
 
 .stick1 {
 	position:fixed;
-	background-color:crimson;
+	background-color:white;
+	border:2px solid #191919;
 	right:100px;
 	top:200px;
 	text-align:center;
@@ -204,7 +223,8 @@ a:hover {
 
 .stick2 {
 	position:fixed;
-	background-color:lime;
+	background-color:white;
+	border:2px solid #191919;
 	left:100px;
 	top:500px;
 	text-align:center;
