@@ -141,8 +141,8 @@ a:hover {
 	background-image:url(bedford.jpg);
 	background-repeat:no-repeat;
 	background-color:white;
-	height:45vw;
-	background-position:top;
+	height:48vw;
+	background-position:center;
 	background-size:cover;
 
 	padding-top:15px;
@@ -154,7 +154,7 @@ a:hover {
 	background-repeat:no-repeat;
 	background-color:white;
 	height:50vw;
-	background-position:top;
+	background-position:center;
 	background-size:cover;
 }
 
@@ -163,7 +163,7 @@ a:hover {
 	background-repeat:no-repeat;
 	background-color:white;
 	height:50vw;
-	background-position:top;
+	background-position:center;
 	background-size:cover;
 
 	padding-top:10px;
@@ -185,7 +185,7 @@ a:hover {
 	background-repeat:no-repeat;
 	background-color:white;
 	height:50vw;
-	background-position:top;
+	background-position:center;
 	background-size:cover;
 
 	padding-top:10px;
