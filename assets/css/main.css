@@ -42,16 +42,13 @@ a:hover {
 
 	width:100vw;
 	height:16vh;
-	font-size:120px;
+	font-size:110px;
 	letter-spacing:-6px;
 	border-bottom:2px solid #191919;
 
 	background-color:#191919;
 	color:white;
 
-	font-family:times;
-	font-style:italic;
-	letter-spacing:-4px;
 }
 
 .container {
@@ -86,8 +83,6 @@ a:hover {
 	background-color:#191919;
 	color:white;
 
-	font-family:times;
-	font-style:italic;
 	letter-spacing:-2px;
 
 	border-bottom:2px solid white;
@@ -132,7 +127,6 @@ a:hover {
 	background-color:#191919;
 
 	border-left:2px solid #191919;
-	border-bottom:2px solid #191919;
 	height:84vh;
 	width:50%;
 	overflow:scroll;
