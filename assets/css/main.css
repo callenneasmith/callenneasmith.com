@@ -1,260 +1,103 @@
 
-
 body {
-	font-family:HelveticaNeue-Light;
-	font-size:80px;
+	font-family: HelveticaNeue-Light;
+	font-size: 36px;
+	text-align:left;
+	letter-spacing:-1.5px;
 	color:#191919;
-	background-color:white;
-	letter-spacing:-2px;
-	height:15vh;
 }
 
-a:link {
-  color:#191919;
-  text-decoration:none;
-}
-
-a:visited {
-  color:#191919;
-  text-decoration:none;
+a {
+	color:#191919;
+	text-decoration:none;
 }
 
 a:hover {
-  color:blue;
-  text-decoration:none;
+	color:#191919;
+	text-decoration:none;
 }
+
+/* header */
 
 .header {
-	padding-top:15px;
-	padding-left:15px;
 
-	width:100vw;
-	height:16vh;
-	font-size:110px;
-	letter-spacing:-6px;
+	height:50px;
+	width:100%;
+	padding:5px;
+
+	position:fixed;
 	border-bottom:2px solid #191919;
 }
 
-.header:hover {
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-left:15px;
-
-	width:100vw;
-	height:16vh;
-	font-size:110px;
-	letter-spacing:-6px;
-	border-bottom:2px solid #191919;
-
-	background-color:#191919;
-	color:white;
-
-}
+/* body */
 
 .container {
 	display:flex;
-	flex-wrap:wrap;
-}
+	flex-wrap:flex;
 
-/* left column */
-
-.col1 {
-	height:84vh;
-	width:50%;
-	overflow:scroll;
+	height:100vh;
+	width:100vw;
 
 	position:fixed;
+
+	top:50px;
+}
+
+
+/* column 1 */
+
+.col1 {
+	width:33%;
+	height:100vh;
+
+	border-right:2px solid #191919;
+
+	overflow:scroll;
 }
 
 .block1 {
-	padding-bottom:25px;
-	padding-top:25px;
-	padding-left:15px;
-	color:#191919;
+	padding:5px;
 
-	border-bottom:2px solid #191919;
+	border-bottom:2px #191919 solid;
 }
+
 
 .block1:hover {
-	padding-bottom:25px;
-	padding-top:25px;
-	padding-left:15px;
 
 	background-color:#191919;
 	color:white;
 
-	letter-spacing:-2px;
-
-	border-bottom:2px solid white;
+	border-bottom:2px #191919 solid;
 }
+
 
 .block1:hover a {
-	color:white;
-	text-decoration:underline;
-}
-
-.wip {
-	padding-bottom:25px;
-	padding-top:25px;
-	padding-left:15px;
-
-	border-bottom:2px solid white;
-}
-
-/* right column */
-
-.col2 {
-	padding-top:15px;
-	padding-left:15px;
-	padding-right:15px;
-	padding-bottom:15px;
-
-	border-left:2px solid #191919;
-	height:84vh;
-	width:50%;
-	overflow:scroll;
-	position:fixed;
-
-	right:0px;
-}
-
-.col2:hover {
-	padding-top:15px;
-	padding-left:15px;
-	padding-right:15px;
-	padding-bottom:15px;
 
 	background-color:#191919;
+	color:white;
+}
 
-	border-left:2px solid #191919;
-	height:84vh;
-	width:50%;
+
+.block2 {
+	padding:5px;
+
+	border-bottom:2px #191919 solid;
+}
+
+
+.block3 {
+	height:50px;
+
+	border-bottom:2px #191919 solid;
+}
+
+
+/* column 2 */
+
+.col2 {
+	width:67%;
+	height:100vh;
+
 	overflow:scroll;
-	position:fixed;
-
-	right:0px;
 }
-
-/* images */
-
-.image1 {
-	background-image:url(bedford.jpg);
-	background-repeat:no-repeat;
-	background-color:white;
-	height:48vw;
-	background-position:center;
-	background-size:cover;
-
-	padding-top:15px;
-
-}
-
-.image2 {
-	background-image:url(collage.png);
-	background-repeat:no-repeat;
-	background-color:white;
-	height:50vw;
-	background-position:center;
-	background-size:cover;
-}
-
-.image3 {
-	background-image:url(mosh.jpg);
-	background-repeat:no-repeat;
-	background-color:white;
-	height:50vw;
-	background-position:center;
-	background-size:cover;
-
-	padding-top:10px;
-}
-
-.image4 {
-	background-image:url(dooley.jpg);
-	background-repeat:no-repeat;
-	background-color:white;
-	height:50vw;
-	background-position:center;
-	background-size:cover;
-
-	padding-top:10px;
-}
-
-.image5 {
-	background-image:url(bermuda.jpg);
-	background-repeat:no-repeat;
-	background-color:white;
-	height:50vw;
-	background-position:center;
-	background-size:cover;
-
-	padding-top:10px;
-}
-
-
-/* Stickers */
-
-.stick1 {
-	position:fixed;
-	background-color:white;
-	border:2px solid #191919;
-	right:100px;
-	top:200px;
-	text-align:center;
-
-	padding-left:20px;
-	padding-right:20px;
-	padding-top:10px;
-	padding-bottom:10px;
-
-	transform-origin:center;
-	transform:rotate(30deg);
-
-	width:400px;
-
-	animation: pulse 3s infinite alternate;
-	animation-delay:1s;
-}
-
-.stick1:hover a {
-	color:blue;
-}
-
-.stick2 {
-	position:fixed;
-	background-color:white;
-	border:2px solid #191919;
-	left:100px;
-	top:500px;
-	text-align:center;
-
-	padding-left:20px;
-	padding-right:20px;
-	padding-top:10px;
-	padding-bottom:10px;
-
-	transform-origin:center;
-	transform:rotate(-30deg);
-
-	width:400px;
-
-	animation: pulse 3s infinite alternate;
-}
-
-.stick2:hover a {
-	color:blue;
-}
-
-@keyframes pulse {
-	0% {
-		opacity:0%;
-	}
-	100% {
-		opacity:100%;
-	}
-}
-
-
-
-
 
