@@ -68,6 +68,8 @@ a:hover {
 	color:white;
 
 	border-bottom:2px #191919 solid;
+
+	animation: hover 1s;
 }
 
 
@@ -75,8 +77,20 @@ a:hover {
 
 	background-color:#191919;
 	color:white;
+
+	animation: hover 1s;
 }
 
+@keyframes hover {
+	0% {
+		background-color:white;
+		color:white;
+	}
+	100% {
+		background-color:#191919
+		color:white;
+	}
+}
 
 .block2 {
 	padding:5px;
