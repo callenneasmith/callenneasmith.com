@@ -1,6 +1,6 @@
 
 body {
-	font-family: HelveticaNeue-Light;
+	font-family: HelveticaNeue;
 	font-size: 36px;
 	text-align:left;
 	letter-spacing:-1.5px;
@@ -69,7 +69,6 @@ a:hover {
 
 	border-bottom:2px #191919 solid;
 
-	animation: hover 1s;
 }
 
 
@@ -78,9 +77,9 @@ a:hover {
 	background-color:#191919;
 	color:white;
 
-	animation: hover 1s;
 }
 
+/* ano */
 @keyframes hover {
 	0% {
 		background-color:white;
