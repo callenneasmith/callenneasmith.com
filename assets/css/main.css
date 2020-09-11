@@ -1,6 +1,6 @@
 
 body {
-	font-family: HelveticaNeue;
+	font-family: HelveticaNeue-Light;
 	font-size: 36px;
 	text-align:left;
 	letter-spacing:-1.5px;
@@ -8,13 +8,8 @@ body {
 }
 
 a {
-	color:#191919;
 	text-decoration:none;
-}
-
-a:hover {
 	color:#191919;
-	text-decoration:none;
 }
 
 /* header */
@@ -63,21 +58,17 @@ a:hover {
 
 
 .block1:hover {
-
 	background-color:#191919;
 	color:white;
-
-	border-bottom:2px #191919 solid;
 
 }
 
 
 .block1:hover a {
-
 	background-color:#191919;
 	color:white;
-
 }
+
 
 /* ano */
 @keyframes hover {
