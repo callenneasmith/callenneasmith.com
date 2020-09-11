@@ -12,6 +12,16 @@ a {
 	color:#191919;
 }
 
+a:clicked {
+	text-decoration:none;
+	color:#191919;
+}
+
+a:visited {
+	text-decoration:none;
+	color:#191919;
+}
+
 /* header */
 
 .header {
@@ -56,21 +66,20 @@ a {
 	border-bottom:2px #191919 solid;
 }
 
-
 .block1:hover {
 	background-color:#191919;
 	color:white;
 
+	cursor:pointer;
 }
-
 
 .block1:hover a {
 	background-color:#191919;
 	color:white;
 }
 
-
 /* ano */
+
 @keyframes hover {
 	0% {
 		background-color:white;
