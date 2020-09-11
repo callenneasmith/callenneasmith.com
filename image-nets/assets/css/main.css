@@ -25,7 +25,7 @@ img {
 
 .nav {
 	position:fixed;
-	top:-80px;
+	top:-200px;
 
 	display:flex;
 	flex-wrap:wrap;
@@ -38,14 +38,14 @@ img {
 	padding-top:5px;
 	padding-bottom:5px;
 
-	transition:1s;
+	transition:0.5s;
 }
 
 .slide {
 	position:fixed;
 	top:0px;
 
-	transition:1s;
+	transition:0.5s;
 }
 
 
