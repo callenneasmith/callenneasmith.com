@@ -41,4 +41,19 @@ $(document).ready(function(){
 
 
 
+	$('.btn-two').click(function(){
+		$('.item').addClass('item-two')
+		$('.item').removeClass('item-three')
+	});
+	$('.btn-three').click(function(){
+		$('.item').addClass('item-three')
+		$('.item').removeClass('item-two')
+	});
+	$('.btn-four').click(function(){
+		$('.item').removeClass('item-two')
+		$('.item').removeClass('item-three')
+	});
+
+
+
 	});
