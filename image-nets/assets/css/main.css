@@ -12,6 +12,18 @@ img {
 	filter:contrast(1.3);
 }
 
+@keyframes hue {
+	0% {
+		filter:hue-rotate(0deg);
+	}
+	50% {
+		filter:hue-rotate(100deg);
+	}
+	100% {
+		filter:hue-rotate(0deg);
+	}
+}
+
 
 /* navigation */
 
