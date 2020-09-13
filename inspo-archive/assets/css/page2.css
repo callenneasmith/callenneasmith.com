@@ -1,7 +1,7 @@
 
 
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family:HelveticaNeue;
 	font-size: 20px;
 	text-align:left;
 	letter-spacing:-1px;
@@ -49,6 +49,7 @@ a:hover {
 	border-right:1px #191919 solid;
 
 	overflow:scroll;
+
 }
 
 .img {
