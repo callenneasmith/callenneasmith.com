@@ -1,9 +1,10 @@
 
+
 body {
-	font-family: HelveticaNeue-Light;
+	font-family:HelveticaNeue-light;
 	font-size: 36px;
 	text-align:left;
-	letter-spacing:-1.5px;
+	letter-spacing:-1px;
 	color:#191919;
 }
 
@@ -107,10 +108,16 @@ a:visited {
 
 /* column 2 */
 
-.col2 {
+
+
+/* projects */
+
+.projects {
 	width:67%;
 	height:100vh;
 
 	overflow:scroll;
 }
+
+
 
