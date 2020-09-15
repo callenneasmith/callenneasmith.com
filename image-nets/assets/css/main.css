@@ -109,12 +109,16 @@ img {
 
 .img {
 	filter:grayscale(100);
+
+	transition:0.5s;
 }
 
 
 .img:hover {
 	width:100%;
 	filter:grayscale(0);
+
+	transition:0.5s;
 }
 
 .caption {
