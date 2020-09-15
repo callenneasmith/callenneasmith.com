@@ -7,6 +7,11 @@ body {
 	color:#191919;
 }
 
+::selection {
+	color:white;
+	background-color:#191919;
+}
+
 a {
 	text-decoration:none;
 	background-color:#191919;
