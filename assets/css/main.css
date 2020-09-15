@@ -13,18 +13,13 @@ body {
 }
 
 a {
-	text-decoration:none;
-	background-color:#191919;
-	color:white;
 }
 
 a:clicked {
-	text-decoration:none;
 	color:#191919;
 }
 
 a:visited {
-	text-decoration:none;
 	color:#191919;
 }
 
