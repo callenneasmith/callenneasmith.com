@@ -87,18 +87,24 @@ img {
 	width:25%;
 	padding-left:5px;
 	padding-bottom:5px;
+
+	cursor:grab;
 }
 
 .item-two  {
 	width:50%;
 	padding-left:5px;
 	padding-bottom:5px;
+
+	cursor:grab;
 }
 
 .item-three  {
 	width:33.3%;
 	padding-left:5px;
 	padding-bottom:5px;
+
+	cursor:grab;
 }
 
 .item img {
