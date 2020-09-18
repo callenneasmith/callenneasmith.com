@@ -56,4 +56,10 @@ $(document).ready(function(){
 
 
 
+	 $( function() {
+    $( "div").draggable();
+  } );
+
+
+
 	});

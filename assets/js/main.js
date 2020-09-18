@@ -10,4 +10,5 @@ $('.btn-close').click(function(){
     $('.about').addClass('hide');
   });
 
+
 });

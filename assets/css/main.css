@@ -228,6 +228,7 @@ a:visited {
 	padding:5px;
 
 	object-fit:cover;
+	/* object-position:top; */
 }
 
 
