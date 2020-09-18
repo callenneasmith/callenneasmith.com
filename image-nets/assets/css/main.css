@@ -216,5 +216,19 @@ img {
 }
 
 
+.bau {
+	cursor:grab;
+}
 
+.bau:active {
+	cursor:grabbing;
+}
+
+.covid {
+	cursor:grab;
+}
+
+.covid:active {
+	cursor:grabbing;
+}
 
