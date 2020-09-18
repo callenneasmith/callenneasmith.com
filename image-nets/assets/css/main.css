@@ -91,8 +91,32 @@ img {
 	cursor:grab;
 }
 
+.item:active  {
+	width:25%;
+	padding-left:5px;
+	padding-bottom:5px;
+
+	cursor:grabbing;
+}
+
 .item-two  {
 	width:50%;
+	padding-left:5px;
+	padding-bottom:5px;
+
+	cursor:grab;
+}
+
+.item-two:active  {
+	width:50%;
+	padding-left:5px;
+	padding-bottom:5px;
+
+	cursor:grabbing;
+}
+
+.item-three  {
+	width:33.3%;
 	padding-left:5px;
 	padding-bottom:5px;
 
@@ -104,7 +128,7 @@ img {
 	padding-left:5px;
 	padding-bottom:5px;
 
-	cursor:grab;
+	cursor:grabbing;
 }
 
 .item img {
