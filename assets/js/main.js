@@ -10,5 +10,9 @@ $('.btn-close').click(function(){
     $('.about').addClass('hide');
   });
 
+$( function() {
+    	$( ".img33").draggable();
+  	} );
+
 
 });
