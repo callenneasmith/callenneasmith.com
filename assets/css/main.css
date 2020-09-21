@@ -1,10 +1,11 @@
 
+
 body {
 	font-family:helveticaneue;
 	font-size:18px;
 	letter-spacing:-0.8px;
 	text-align:left;
-	color:#191919;
+	color:black;
 
 	background-color:white;
 }
@@ -143,40 +144,30 @@ a:visited {
 	flex-wrap:wrap;
 
 	width:100%;
-	height:55%;
+	height:98%;
+	padding-bottom:5px;
 
 	border-bottom:2px solid #191919;
 }
 
+.container-small-end {
+	display:flex;
+	flex-wrap:wrap;
+
+	width:100%;
+	height:100%;
+	padding-bottom:5px;
+}
+
 .caption {
 	width:40%;
+	height:50%;
 	padding:5px;
 }
 
 .caption-body {
 	padding-right:5px;
 	word-wrap:break-word;
-}
-
-
-.img60 {
-	width:60%;
-	height:100%;
-	padding:5px;
-
-	object-fit:cover;
-	transition:0.5s;
-}
-
-.img60:hover {
-	width:60%;
-	height:100%;
-	padding:5px;
-
-	object-fit:cover;
-
-	filter:invert(1);
-	transition:0.5s;
 }
 
 
@@ -211,12 +202,14 @@ a:visited {
 }
 
 
-.container-small-end {
+.container-small-about {
 	display:flex;
 	flex-wrap:wrap;
 
 	width:100%;
-	height:55%;
+	height:100%;
+
+	overflow:scroll;
 }
 
 .caption-large {
@@ -225,18 +218,20 @@ a:visited {
 }
 
 
-.img33 {
-	width:33.3%;
-	height:100%;
+/* images */
+
+.img50 {
+	width:50%;
+	height:50%;
 	padding:5px;
 
 	object-fit:cover;
 	/* object-position:top; */
 }
 
-.img33:hover {
-	width:33.3%;
-	height:100%;
+.img50:hover {
+	width:50%;
+	height:50%;
 	padding:5px;
 
 	object-fit:cover;
@@ -245,9 +240,9 @@ a:visited {
 	cursor:grab;
 }
 
-.img33:active {
-	width:33.3%;
-	height:100%;
+.img50:active {
+	width:50%;
+	height:50%;
 	padding:5px;
 
 	object-fit:cover;
@@ -255,6 +250,62 @@ a:visited {
 
 	cursor:grabbing;
 }
+
+.img-hero {
+	width:60%;
+	height:50%;
+	padding:5px;
+
+	border:5px white solid;
+	border-bottom:0px white solid;
+	background-color:black;
+
+	object-fit:contain;
+}
+
+.img-hero-w {
+	width:60%;
+	height:50%;
+	padding:5px;
+
+	border:5px white solid;
+	border-bottom:0px white solid;
+	background-color:#f2f2f2;
+
+	object-fit:contain;
+}
+
+.img-row {
+	display:flex;
+	flex-wrap:wrap;
+
+	justify-content:space-between;
+
+	width:100%;
+	height:100%;
+	padding:5px;
+	padding-right:0px;
+
+}
+
+
+.img40 {
+	width:40%;
+	height:50%;
+	padding-right:5px;
+
+	object-fit:cover;
+}
+
+.img20 {
+	width:20%;
+	height:50%;
+	padding-right:5px;
+
+	object-fit:cover;
+}
+
+
 
 
 
