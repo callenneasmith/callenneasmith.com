@@ -11,17 +11,16 @@ body {
 
 a {
 	color:#191919;
+	transition:1s;
 }
 
 a:hover {
 	animation:pulse 2s infinite alternate;
+	transition:1s;
 }
 
 @keyframes pulse {
 	0% {
-		color:#191919;
-	}
-	50% {
 		color:red;
 	}
 	100% {
