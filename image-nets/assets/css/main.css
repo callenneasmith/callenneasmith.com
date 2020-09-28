@@ -1,8 +1,8 @@
 
 
 body {
-	font-family: Helvetica,sans-serif;
-	font-style:bold;
+	-webkit-font-smoothing: antialiased;
+	font-family:Helvetica,sans-serif;
 	font-size: 40px;
 	letter-spacing:-1.5px;
 	color:#191919;
