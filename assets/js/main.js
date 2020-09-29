@@ -11,7 +11,7 @@ $('.btn-close').click(function(){
   });
 
 $( function() {
-    	$( ".img50").draggable();
+    	$( ".imgprofile").draggable();
   	} );
 
 
