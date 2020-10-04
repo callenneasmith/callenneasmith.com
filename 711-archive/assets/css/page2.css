@@ -1,0 +1,57 @@
+
+
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family:Helvetica;
+	font-size: 48px;
+	text-align:left;
+	letter-spacing:-1.5px;
+	color:#191919;
+}
+
+.heading {
+	padding-left:5px;
+	margin-top:20vh;
+	padding-bottom:10vh;
+}
+
+.des {
+	padding-bottom:10vh;
+	font-size:24px;
+	letter-spacing:-0.8px;
+	padding-left:5px;
+}
+
+.container {
+	border:1px #191919 solid;
+	padding:5px;
+	margin:5px;
+
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+.img {
+	width:25%;
+	height:30vw;
+	object-fit:cover;
+
+}
+
+.caption {
+	font-size:24px;
+	width:75%;
+	letter-spacing:-0.8px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.bold {
+	font-family:helvetica;
+	font-weight:bold;
+}
+
+
+
+
