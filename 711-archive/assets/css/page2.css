@@ -18,6 +18,8 @@ body {
 }
 
 .des {
+	width:95%;
+
 	padding-bottom:5vh;
 	font-size:24px;
 	letter-spacing:-0.8px;
