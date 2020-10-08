@@ -57,7 +57,6 @@ $(document).ready(function(){
 
 
 	 $( function() {
-    	$( ".item").draggable();
     	$( ".bau").draggable();
     	$( ".covid").draggable();
   	} );
