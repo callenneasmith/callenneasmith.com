@@ -31,7 +31,7 @@ img {
 
 .nav {
 	position:fixed;
-	top:-200px;
+	top:-400px;
 
 	display:flex;
 	flex-wrap:wrap;
@@ -66,6 +66,12 @@ img {
 	cursor:pointer;
 }
 
+.btn:active {
+	background-color:grey;
+	color:white;
+	cursor:pointer;
+}
+
 
 /* body */
 
@@ -95,6 +101,12 @@ img {
 
 .item  {
 	width:25%;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
+.item-one  {
+	width:100%;
 	padding-left:5px;
 	padding-bottom:5px;
 }
@@ -212,4 +224,42 @@ img {
 .covid:active {
 	cursor:grabbing;
 }
+
+/*iphone*/
+
+@media (max-width:600px) {
+	body {
+		font-size:24px;
+	}
+
+	.btn {
+		padding:2.5px;
+	}
+
+	.des {
+    	margin-top: 8vh;
+    	font-size: 18px;
+    	letter-spacing: -0.8px;
+    }
+
+    .caption {
+    	font-size: 12px;
+    	letter-spacing: -0.6px;
+	}
+
+	.container {
+		margin-top:5vh;
+	}
+
+	.item {
+		width:33.3%;
+	}
+
+	.item.item-two {
+		width:50%;
+	}
+
+	.item.item-one {
+		width:100%;
+	}
 

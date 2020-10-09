@@ -40,19 +40,38 @@ $(document).ready(function(){
 	});
 
 
-
+	$('.btn-one').click(function(){
+		$('.item').addClass('item-one')
+		$('.item').removeClass('item-two')
+		$('.item').removeClass('item-three')
+	});
 	$('.btn-two').click(function(){
 		$('.item').addClass('item-two')
 		$('.item').removeClass('item-three')
+		$('.item').removeClass('item-one')
 	});
 	$('.btn-three').click(function(){
 		$('.item').addClass('item-three')
 		$('.item').removeClass('item-two')
+		$('.item').removeClass('item-one')
 	});
 	$('.btn-four').click(function(){
 		$('.item').removeClass('item-two')
 		$('.item').removeClass('item-three')
+		$('.item').removeClass('item-one')
 	});
+
+	if ($(window).width() < 600) {
+		$('.btn-one').removeClass('hide')
+		$('.btn-four').addClass('hide')
+	}
+
+	if ($(window).width() > 600) {
+		$('.btn-one').addClass('hide')
+		$('.btn-four').removeClass('hide')
+	}
+
+
 
 
 
