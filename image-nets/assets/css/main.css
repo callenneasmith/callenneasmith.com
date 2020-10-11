@@ -76,16 +76,25 @@ img {
 /* body */
 
 .des {
-	margin-top:20vh;
+	padding-top:20vh;
 	font-size:32px;
 	letter-spacing:-1.8px;
+	background-color:white;
+	width:100vw;
+	height:100vh;
 	
 	padding-left:5px;
 	padding-right:5px;
+
+	position:absolute;
+	z-index:1;
+}
+
+.open {
 }
 
 .container {
-	margin-top:10vh;
+	margin-top:20vh;
 	margin-bottom:10vh;
 
 	padding-top:5px;
@@ -227,7 +236,7 @@ img {
 
 /*iphone*/
 
-@media (max-width:600px) {
+@media (max-width:900px) {
 	body {
 		font-size:24px;
 	}
@@ -237,13 +246,12 @@ img {
 	}
 
 	.des {
-    	margin-top: 8vh;
     	font-size: 18px;
     	letter-spacing: -0.8px;
     }
 
     .caption {
-    	font-size: 12px;
+    	font-size: 14px;
     	letter-spacing: -0.6px;
 	}
 

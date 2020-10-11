@@ -1,6 +1,11 @@
 $(document).ready(function(){
 	console.log(':)');
 
+	$('.open').click(function(){
+		$('.container').removeClass('hide')
+		$('.des').addClass('hide')
+	});
+
 	$('.btn-menu').click(function(){
 		$('.nav').addClass('slide')
 	});
@@ -61,18 +66,15 @@ $(document).ready(function(){
 		$('.item').removeClass('item-one')
 	});
 
-	if ($(window).width() < 600) {
+	if ($(window).width() < 900) {
 		$('.btn-one').removeClass('hide')
 		$('.btn-four').addClass('hide')
 	}
 
-	if ($(window).width() > 600) {
+	if ($(window).width() > 900) {
 		$('.btn-one').addClass('hide')
 		$('.btn-four').removeClass('hide')
 	}
-
-
-
 
 
 	 $( function() {
