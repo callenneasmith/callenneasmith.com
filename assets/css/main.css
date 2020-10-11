@@ -149,6 +149,25 @@ a:visited {
 	word-wrap:break-word;
 }
 
+.btn-more {
+	cursor:pointer;
+
+	text-decoration:underline;
+}
+
+.btn-less {
+	cursor:pointer;
+
+	text-decoration:underline;
+}
+
+.caption-slide {
+	padding-right:5px;
+	word-wrap:break-word;
+
+	display:none;
+}
+
 
 /* about me */
 

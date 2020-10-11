@@ -10,9 +10,13 @@ $('.btn-close').click(function(){
     $('.about').addClass('hide');
   });
 
-$( function() {
-    	$( ".imgprofile").draggable();
-  	} );
+$(function() {
+    $( ".imgprofile").draggable();
+  	});
+
+$(".btn-more").click(function () {
+  	$(".caption-slide").slideToggle();
+});
 
 
 });
