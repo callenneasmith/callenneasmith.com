@@ -76,21 +76,27 @@ img {
 /* body */
 
 .des {
-	padding-top:20vh;
+	margin-top:20vh;
 	font-size:32px;
 	letter-spacing:-1.8px;
-	background-color:white;
-	width:100vw;
-	height:100vh;
 	
 	padding-left:5px;
 	padding-right:5px;
 
 	position:absolute;
+}
+
+.land {
 	z-index:1;
 }
 
-.open {
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .container {
@@ -215,6 +221,8 @@ img {
 	position:fixed;
 	bottom:0px;
 	margin-top:40vh;
+
+
 }
 
 

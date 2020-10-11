@@ -3,7 +3,9 @@ $(document).ready(function(){
 
 	$('.open').click(function(){
 		$('.container').removeClass('hide')
-		$('.des').addClass('hide')
+		$('.land').addClass('hide')
+		$('.fix').removeClass('hide')
+
 	});
 
 	$('.btn-menu').click(function(){
