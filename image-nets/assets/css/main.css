@@ -177,6 +177,7 @@ video {
 
 .hide {
 	display:none;
+	transition:0.5s;
 }
 
 
@@ -273,11 +274,11 @@ video {
 	}
 
 	.item {
-		width:33.3%;
+		width:50%;
 	}
 
-	.item.item-two {
-		width:50%;
+	.item-three {
+		width:33.3%;
 	}
 
 	.item.item-one {
