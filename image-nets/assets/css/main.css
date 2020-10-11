@@ -266,11 +266,12 @@ video {
 
     .caption {
     	font-size: 14px;
-    	letter-spacing: -0.6px;
+    	letter-spacing:-0.6px;
 	}
 
 	.container {
 		margin-top:5vh;
+		margin-bottom:5vh;
 	}
 
 	.item {
