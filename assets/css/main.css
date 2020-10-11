@@ -308,6 +308,8 @@ a:visited {
 @media (max-width:600px) {
 	.container {
     width: 100%;
+    display:block;
+    position:inherit;
 	}
 
 	.col1 {
@@ -356,6 +358,10 @@ a:visited {
     object-fit: cover;
 	}
 
+	.rt {
+    padding-left: 0px;
+	}
+
 	.img-row {
     display: flex;
     flex-wrap: wrap;
@@ -373,6 +379,7 @@ a:visited {
 
 	.about {
     width: 100%;
+    position:inherit;
 	}
 
 	.container-small-end {
