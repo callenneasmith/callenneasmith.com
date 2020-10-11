@@ -13,6 +13,11 @@ img {
 	filter:contrast(1.3);
 }
 
+::selection {
+	color:white;
+	background-color:#191919;
+}
+
 @keyframes hue {
 	0% {
 		filter:hue-rotate(0deg);
