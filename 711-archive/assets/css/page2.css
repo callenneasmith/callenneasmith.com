@@ -69,7 +69,7 @@ body {
 	letter-spacing:-0.6px;
 }
 
-@media (max-width:900px) {
+@media (max-width:600px) {
 
 	.heading {
     margin-top: 10vh;
