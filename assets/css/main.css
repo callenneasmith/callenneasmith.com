@@ -39,6 +39,9 @@ a:visited {
 
 /* header */
 
+.title {
+
+}
 
 /* body */
 
@@ -302,6 +305,16 @@ a:visited {
 /* tablet */
 
 @media (max-width:800px) {
+	.title {
+    position: fixed;
+    top: 5px;
+    border-bottom: 2px #191919 solid;
+    width: 100%;
+    margin: -5px;
+    padding: 5px;
+    background-color: white;
+	}
+
 	.container {
     width: 100%;
     display:block;
@@ -413,6 +426,16 @@ a:visited {
 /* iphone */
 
 @media (max-width:600px) {
+	.title {
+    position: fixed;
+    top: 5px;
+    border-bottom: 2px #191919 solid;
+    width: 100%;
+    margin: -5px;
+    padding: 5px;
+    background-color: white;
+	}
+
 	.container {
     width: 100%;
     display:block;
