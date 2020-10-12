@@ -55,6 +55,10 @@ a:visited {
 	position:fixed;
 }
 
+.footer {
+    visibility: hidden;
+}
+
 
 /* column 1 */
 
@@ -421,6 +425,17 @@ a:visited {
 	cursor:grabbing;
 }
 
+.footer {
+    position: fixed;
+    bottom: 5px;
+    border-top: 2px #191919 solid;
+    width: 100%;
+    margin-bottom: -5px;
+    padding: 5px;
+    background-color: white;
+    visibility: inherit;
+	}
+
 }
 
 /* iphone */
@@ -531,7 +546,7 @@ a:visited {
     object-fit: cover;
 
 	cursor:grab;
-}
+	}
 
 .imgprofile:active {
 	width: 100%;
@@ -540,8 +555,18 @@ a:visited {
     object-fit: cover;
 
 	cursor:grabbing;
-}
+	}
 
+.footer {
+    position: fixed;
+    bottom: 5px;
+    border-top: 2px #191919 solid;
+    width: 100%;
+    margin-bottom: -5px;
+    padding: 5px;
+    background-color: white;
+    visibility: inherit;
+	}
 }
 
 
