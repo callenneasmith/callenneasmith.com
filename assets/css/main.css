@@ -394,6 +394,24 @@ a:visited {
     object-fit: cover;
 	}
 
+	.imgprofile:hover {
+	width: 100%;
+    height: 230px;
+    padding: 5px;
+    object-fit: cover;
+
+	cursor:grab;
+}
+
+.imgprofile:active {
+	width: 100%;
+    height: 230px;
+    padding: 5px;
+    object-fit: cover;
+
+	cursor:grabbing;
+}
+
 }
 
 
