@@ -95,6 +95,8 @@ body {
     font-size: 14px;
     width: 100%;
     letter-spacing: -0.6px;
+    padding-left: 0px;
+    padding-right: 0px;
 	}
 
 	.img {
