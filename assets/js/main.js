@@ -15,7 +15,9 @@ $(function() {
   	});
 
 $(".btn-more").click(function () {
-  	$(".caption-slide").slideToggle();
+  	$(this).toggleClass('active');
+  	$(this).next('.caption-slide').slideToggle();
+  	// console.log('clickbuttonevent');
 });
 
 
