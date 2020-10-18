@@ -12,6 +12,11 @@ body {
 	padding-right:5px;
 }
 
+a {
+	text-decoration:underline;
+	color:#191919;
+}
+
 .heading {
 	margin-top:20vh;
 	padding-bottom:10vh;
