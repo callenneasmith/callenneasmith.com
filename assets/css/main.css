@@ -94,6 +94,16 @@ a:visited {
 	color:white;
 }
 
+.block1:active {
+	background-color:grey;
+	color:white;
+}
+
+.block1:active a {
+	background-color:grey;
+	color:white;
+}
+
 .block-bold {
 	font-family:helvetica;
 	font-weight:bold;
