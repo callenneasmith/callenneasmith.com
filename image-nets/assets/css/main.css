@@ -30,6 +30,16 @@ img {
 	}
 }
 
+a {
+	text-decoration:underline;
+	color:#191919;
+}
+
+a:active {
+	text-decoration:underline;
+	color:#191919;
+}
+
 
 /* navigation */
 
