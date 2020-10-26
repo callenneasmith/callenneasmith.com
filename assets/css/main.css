@@ -27,14 +27,17 @@ body {
 
 a {
 	color:#191919;
+	text-decoration:none;
 }
 
 a:clicked {
 	color:#191919;
+	text-decoration:none;
 }
 
 a:visited {
 	color:#191919;
+	text-decoration:none;
 }
 
 /* header */
