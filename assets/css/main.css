@@ -183,11 +183,14 @@ a:visited {
 	display:none;
 }
 
+.b-pad {
+	margin-bottom:5px;
+}
+
 
 /* about me */
 
 .btn-about {
-	text-decoration:underline;
 }
 
 
