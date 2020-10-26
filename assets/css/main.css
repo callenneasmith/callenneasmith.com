@@ -168,8 +168,12 @@ a:visited {
 
 .btn-more {
 	cursor:pointer;
+	display:inline-block;
 
-	text-decoration:underline;
+	border:1px #191919 solid;
+	border-radius:12px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .caption-slide {
