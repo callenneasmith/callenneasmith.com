@@ -1,13 +1,17 @@
 $(document).ready(function(){
 
-$('.btn-about').click(function(){
+$('.tog-about').click(function(){
     $('.projects').addClass('hide');
     $('.about').removeClass('hide');
+    $('.tog-projects').removeClass('hide');
+    $('.tog-about').addClass('hide');
   });
 
-$('.btn-close').click(function(){
+$('.tog-projects').click(function(){
     $('.projects').removeClass('hide');
     $('.about').addClass('hide');
+    $('.tog-projects').addClass('hide');
+    $('.tog-about').removeClass('hide');
   });
 
 $(function() {
