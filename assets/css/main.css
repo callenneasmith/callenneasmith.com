@@ -112,6 +112,12 @@ a:visited {
 	font-weight:bold;
 }
 
+.block-reg {
+	font-family:helvetica;
+	font-weight:normal;
+}
+
+
 /* ano */
 
 @keyframes hover {
