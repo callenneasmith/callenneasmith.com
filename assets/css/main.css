@@ -355,11 +355,15 @@ a:visited {
     padding: 5px;
     border-bottom: 2px solid #191919;
     border-right:0px solid #191919;
+
+    margin-top: 25px;
 	}
 
 	.projects {
     width: 100%;
     padding-top: 0px;
+
+    margin-bottom: 25px;
 	}
 
 	.container-small {
@@ -419,6 +423,8 @@ a:visited {
 	.about {
     width: 100%;
     position:inherit;
+
+    margin-bottom: 25px;
 	}
 
 	.container-small-end {
@@ -487,11 +493,15 @@ a:visited {
     padding: 5px;
     border-bottom: 2px solid #191919;
     border-right:0px solid #191919;
+
+    margin-top: 25px;
 	}
 
 	.projects {
     width: 100%;
     padding-top: 0px;
+
+    margin-bottom: 25px;
 	}
 
 	.container-small {
@@ -551,6 +561,8 @@ a:visited {
 	.about {
     width: 100%;
     position:inherit;
+
+    margin-bottom: 25px;
 	}
 
 	.container-small-end {
