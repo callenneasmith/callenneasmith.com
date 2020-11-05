@@ -9,20 +9,18 @@ body {
 	color:#191919;
 
 	background-color:white;
+
+	-ms-overflow-style: none;
+  	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 ::selection {
 	color:white;
 	background-color:#191919;
-}
-
-.example::-webkit-scrollbar {
-  display: none;
-}
-
-.example {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 a {
