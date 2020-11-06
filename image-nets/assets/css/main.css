@@ -221,36 +221,32 @@ video {
 /* header */
 
 .header {
-	position:fixed;
-	background-color:white;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
 
-	display:flex;
-	flex-wrap:wrap;
-	width:100%;
+    width: 100%;
+    top: 0px;
 
-	justify-content:space-between;
-
-	background: linear-gradient(180deg, 
-	rgba(255,255,255,1) 0%,
-	rgba(255,255,255,1) 80%,
-	rgba(0,212,255,0) 100%);
+ 	padding-bottom:15px; 
+    justify-content: space-between;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(0,212,255,0) 100%);
 }
 
 
 .btn-menu {
-	position:fixed;
-	top:5px;
-	left:5px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 
 .zoom {
-	position:fixed;
-	top:5px;
-	right:5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
 
-	display:flex;
-	flex-wrap:wrap;
 }
 
 
