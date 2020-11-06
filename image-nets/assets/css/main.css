@@ -69,10 +69,10 @@ a:active {
 	transition:0.5s;
 
 	background: rgb(255,255,255);
-	background: linear-gradient(180deg, 
-		rgba(255,255,255,1) 0%, 
-		rgba(255,255,255,1) 80%, 
-		rgba(255,255,255,1) 100%);
+	background: linear-gradient(180deg,
+		rgba(255,255,255,1) 0%,
+		rgba(255,255,255,1) 80%,
+		rgba(255,255,255,0) 100%);
 }
 
 .slide {
@@ -237,11 +237,12 @@ video {
 
  	padding-bottom:15px; 
     justify-content: space-between;
+
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, 
-    rgba(255,255,255,1) 0%,
-    rgba(255,255,255,1) 80%,
-    rgba(255,255,255,1) 100%);
+	background: linear-gradient(180deg,
+		rgba(255,255,255,1) 0%,
+		rgba(255,255,255,1) 80%,
+		rgba(255,255,255,0) 100%);
 }
 
 
@@ -280,9 +281,9 @@ video {
 
 	background: rgb(255,255,255);
 	background: linear-gradient(0deg,
-		rgba(255,255,255,1) 0%,
-		rgba(255,255,255,1) 80%,
-		rgba(255,255,255,1) 100%);
+		rgba(255,255,255,1) 0%, 
+		rgba(255,255,255,1) 80%, 
+		rgba(255,255,255,0) 100%);
 }
 
 
