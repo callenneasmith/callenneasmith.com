@@ -338,6 +338,14 @@ p {
 	z-index:5;
 }
 
+.aic {
+	align-self:center;
+}
+
+.vis-no {
+	visibility:hidden;
+}
+
 .finv {
 	filter:invert(1);
 }
