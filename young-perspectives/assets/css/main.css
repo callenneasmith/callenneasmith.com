@@ -216,17 +216,10 @@ p {
 
 .footer {
 	background-color:black;
-	display:flex;
-	flex-wrap:wrap;
 	letter-spacing:-0.5px;
 
 	font-family: 'Work Sans', sans-serif;
 	color:white;
-}
-
-.f-col {
-	width:33.33%;
-
 	padding:10px;
 }
 
