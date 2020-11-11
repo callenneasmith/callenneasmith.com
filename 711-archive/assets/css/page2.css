@@ -3,9 +3,9 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	font-family:Helvetica;
-	font-size: 48px;
+	font-size: 60px;
 	text-align:left;
-	letter-spacing:-1.5px;
+	letter-spacing:-2px;
 	color:#191919;
 
 	padding-left:5px;
@@ -19,7 +19,7 @@ a {
 
 .heading {
 	margin-top:20vh;
-	padding-bottom:10vh;
+	margin-bottom:10vh;
 }
 
 .des {
