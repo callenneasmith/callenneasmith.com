@@ -354,6 +354,10 @@ p {
 	width:75%;
 }
 
+.ms {
+	font-family:monospace;
+}
+
 
 
 @media (max-width:900px) {
