@@ -372,12 +372,16 @@ p {
 	font-family:monospace;
 }
 
+.sub {
+	font-size:30px;
+}
+
 
 
 @media (max-width:900px) {
 
 	h3 {
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -1.3px;
     font-family: 'Source Serif Pro', serif;
 	}
@@ -425,6 +429,10 @@ p {
     width: 75%;
     margin: auto;
     text-align: justify;
+	}
+
+	.sub {
+	font-size:28px;
 	}
 
 }
@@ -555,6 +563,10 @@ p {
 
 	.tca {
 		text-align:center;
+	}
+
+	.sub {
+	font-size:20px;
 	}
 }
 
