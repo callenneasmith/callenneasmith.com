@@ -1,0 +1,111 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 150px;
+	text-align:right;
+	letter-spacing:-6px;
+	color:#191919;
+}
+
+
+.object {
+	text-align:left;
+	background-color:white;
+	padding-top:120px;
+	padding-bottom:20px;
+	padding-left:20px;
+	text-decoration: underline;
+}
+
+
+.place {
+	background-color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	text-decoration: underline;
+}
+
+
+.name {
+	text-align:left;
+	background-color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	text-decoration: underline;
+}
+
+.date {
+	color:white;
+	font-size:100px;
+	background-color:blue;
+	padding:20px;
+	letter-spacing:-3px;
+	text-align:center;
+	position:fixed;
+	right:200px;
+	top:70px;
+	animation: bop 1s infinite alternate;
+
+}
+
+@keyframes bop {
+
+	0% {
+		transform: translate(0px,0px);
+		opacity:100%;
+	}
+	100% {
+		transform: translate(0px,10px);
+		opacity:40%;
+	}
+}
+
+
+.title {
+	color:white;
+	font-size:100px;
+	background-color:orangered;
+	padding:20px;
+	letter-spacing:-3px;
+	text-align:center;
+	position:fixed;
+	right:300px;
+	top:350px;
+	animation: bop 1s infinite alternate;
+	animation-delay:0.5s;
+}
+
+
+.mada {
+	color:white;
+	font-size:100px;
+	background-color:lime;
+	letter-spacing:-3px;
+	padding:20px;
+	letter-spacing:-3px;
+	text-align:center;
+	position:fixed;
+	left:170px;
+	top:530px;
+	animation: bop 1s infinite alternate;
+	animation-delay:1s;
+}
+
+
+.word1 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word2 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word3 {
+	font-family:times;
+	font-style:italic;
+}
