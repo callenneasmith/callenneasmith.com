@@ -1,0 +1,84 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 150px;
+	text-align:left;
+	line-height:120px;
+	padding-left:20px;
+	padding-right:20px;
+	letter-spacing:-8px;
+}
+
+.object {
+	padding-top:20px;
+	padding-left:20px;
+	border-bottom:2px black solid;
+	border-left:2px black solid;
+	border-right:2px black solid;
+}
+
+
+.place {
+	text-align:right;
+	padding-top:20px;
+	padding-right:20px;
+	border-bottom:2px black solid;
+	border-left:2px black solid;
+	border-right:2px black solid;
+	}
+
+.name {
+	padding-top:20px;
+	padding-left:20px;
+	border-bottom:2px black solid;
+	border-left:2px black solid;
+	border-right:2px black solid;
+}
+
+
+.info {
+	text-align:right;
+	padding-top:20px;
+	font-size:40px;
+	letter-spacing:-2px;
+}
+
+
+.date {
+	padding-right:20px;
+	padding-left:20px;
+	background-color:gold;
+}
+
+.project {
+	padding-right:20px;
+	padding-left:20px;
+	background-color:mediumorchid;
+}
+
+.mada {
+	padding-right:20px;
+	padding-left:20px;
+	background-color:lightblue;
+}
+
+
+
+.word1 {
+	font-family:times;
+	font-style:italic;
+	background-color:crimson;
+}
+
+
+.word2 {
+	font-family:times;
+	font-style:italic;
+	background-color:chartreuse;
+}
+
+
+.word3 {
+	font-family:times;
+	font-style:italic;
+	background-color:deeppink;
+}
