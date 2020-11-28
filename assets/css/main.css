@@ -54,6 +54,9 @@ a:visited {
 	width:100%;
 
 	position:fixed;
+
+	-ms-overflow-style: none;
+  	scrollbar-width: none;
 }
 
 .footer {
