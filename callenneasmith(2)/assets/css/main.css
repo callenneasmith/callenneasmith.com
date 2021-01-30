@@ -320,7 +320,7 @@ h5 {
 
 h2 	{
 	font-size:24px;
-	line-height:24px;
+	line-height:26px;
 	letter-spacing:-0.8px;
 }
 
@@ -396,6 +396,10 @@ h5 {
     padding-right: 10px;
     padding-bottom: 2px;
     object-fit: cover;
+}
+
+.rt {
+	padding-left:2px;
 }
 
 .imgc {
