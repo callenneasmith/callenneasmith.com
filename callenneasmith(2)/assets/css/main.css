@@ -460,9 +460,15 @@ h5 {
 	padding:10px;
 }
 
-.w1of4
-.w2of4
-.w3of4
+.w1of4 {
+	height:100%;
+}
+.w2of4 {
+	height:100%;
+}
+.w3of4 {
+	height:100%;
+}
 .w4of4 {
 	height:100%;
 }
