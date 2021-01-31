@@ -321,7 +321,6 @@ h5 {
 
 @media (max-width:600px) {
 h1  {
-	font-family: 'Fraunces', serif;
 	font-size:60px;
 	letter-spacing:-3px;
 }
@@ -459,6 +458,13 @@ h5 {
 .contact {
 	width:75%;
 	padding:10px;
+}
+
+.w1of4
+.w2of4
+.w3of4
+.w4of4 {
+	height:100%;
 }
 }
 
