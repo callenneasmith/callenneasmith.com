@@ -45,6 +45,7 @@ a:hover {
 
 h1 {
 	font-family: 'Fraunces', serif;
+	font-style:italic;
 	font-size:120px;
 	letter-spacing:-4px;
 }
