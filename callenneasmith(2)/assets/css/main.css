@@ -362,7 +362,7 @@ h5 {
 
 .intro {
 	padding:10px;
-	bottom: env(safe-area-inset-bottom);
+	bottom: env(safe-area-inset-bottom,0);
 }
 
 .keyline {
