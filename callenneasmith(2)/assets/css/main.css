@@ -345,9 +345,9 @@ h4 {
 }
 
 p {
-	font-size:10px;
-	line-height:12px;
-	letter-spacing:-0.5px;
+	font-size:14px;
+	line-height:14px;
+	letter-spacing:-0.3px;
 }
 
 h5 {
@@ -362,6 +362,7 @@ h5 {
 
 .intro {
 	padding:10px;
+	bottom: env(safe-area-inset-bottom);
 }
 
 .keyline {
