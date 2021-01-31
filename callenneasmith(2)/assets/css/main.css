@@ -400,7 +400,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height:20vh;
+    height:auto;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 2px;
