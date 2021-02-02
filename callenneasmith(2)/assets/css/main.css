@@ -322,6 +322,7 @@ h5 {
 	background-color:#a09999;
 	color:white;
 	cursor:pointer;
+	border:1px solid white;
 }
 
 .btn-pop:active {
