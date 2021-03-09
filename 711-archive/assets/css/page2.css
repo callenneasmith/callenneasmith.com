@@ -162,12 +162,17 @@ a {
     border-top: 1px #191919 solid;
     border-left: 1px #191919 solid;
     width: 100%;
+    object-fit: cover;
     display: flex;
     flex-wrap: wrap;
 }
 
 .x {
 	border-bottom:0px #191919 solid;
+}
+
+.r {
+	border-right:0px #191919 solid;
 }
 
 .footer {
