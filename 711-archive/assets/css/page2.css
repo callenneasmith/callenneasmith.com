@@ -10,8 +10,12 @@ body {
 }
 
 a {
-	text-decoration:underline;
+	text-decoration:none;
 	color:#191919;
+}
+
+a:hover {
+	color:white;
 }
 
 ::selection {
@@ -40,8 +44,21 @@ a {
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:10px;
-	right:10px;
+	padding-right:10px;
+	right:0px;
 	position:fixed;
+}
+
+.logo:hover {
+	background-color:#191919;
+	color:white;
+	cursor:pointer;
+}
+
+.logo:active {
+	background-color:red;
+	color:white;
+	cursor:pointer;
 }
 
 .des {
@@ -91,7 +108,6 @@ a {
 	width:50%;
 	height:100%;
 	object-fit:cover;
-
 }
 
 .caption {
@@ -137,7 +153,8 @@ a {
     padding-top: 2px;
     padding-bottom: 4px;
     padding-left: 10px;
-    right: 10px;
+    right: 0px;
+    padding-right:10px;
     position: fixed;
 }
 
@@ -180,6 +197,12 @@ a {
 
 	font-size:12px;
 	letter-spacing:0px;
+}
+
+.img {
+	width:50%;
+	height:100%;
+	object-fit:cover;
 }
 }
 
