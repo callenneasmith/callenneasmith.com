@@ -1,5 +1,5 @@
 body {
-	font-family:helvetica, sans-serif;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	letter-spacing:-0.5px;
 	line-height: 16px;
@@ -103,7 +103,7 @@ a:active {
 }
 
 .home{
-	padding-left:5px;
+	padding-left:15px;
 }
 
 
@@ -115,6 +115,10 @@ a:active {
 
 .p-5 {
 	padding-bottom:5px;
+}
+
+.par {
+	text-indent:40px;
 }
 
 .img-thumb {
