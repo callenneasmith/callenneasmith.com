@@ -127,7 +127,7 @@ p {
 }
 
 .column {
-	width:33.33%;
+	width:30%;
 	height:100%;
 
 	flex: 0 0 auto;
