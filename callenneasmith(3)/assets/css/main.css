@@ -4,6 +4,7 @@ body {
 	letter-spacing:-0.5px;
 	line-height: 16px;
 	color:#191919;
+	text-align:justify;
 }
 
 p {
@@ -172,3 +173,77 @@ a:active {
 .c-pad {
 	padding-top:5px;
 }
+
+@media (max-width:600px) {
+
+/* homepage */
+
+.footer {
+    width: 100%;
+    padding-right: 0px;
+    position: static;
+    padding: 10px;
+}
+
+.frame {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.holder {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 2.5px;
+}
+
+/* projects */
+
+.nav-new {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+.des {
+    columns: 2;
+}
+
+.img-20 {
+	width:20%;
+	height:200px;
+	object-fit: cover;
+}
+
+.img-40 {
+	width:40%;
+	height:200px;
+	object-fit: cover;
+}
+
+.img-60 {
+	width:60%;
+	height:200px;
+	object-fit: cover;
+}
+
+.img-80 {
+	width:80%;
+	height:200px;
+	object-fit: cover;
+}
+
+.img-100 {
+	width:100%;
+	height:200px;
+	object-fit: cover;
+}
+
+.home{
+	padding-left:10px;
+}
+
+}
+
