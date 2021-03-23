@@ -1,28 +1,12 @@
 $(document).ready(function(){
+	console.log(':)');
 
-$('.tog-about').click(function(){
-    $('.projects').addClass('hide');
-    $('.about').removeClass('hide');
-    $('.tog-projects').removeClass('hide');
-    $('.tog-about').addClass('hide');
-  });
+	if ($(window).width() < 600) {
+		$('.nav').addClass('nav-new')
+	}
 
-$('.tog-projects').click(function(){
-    $('.projects').removeClass('hide');
-    $('.about').addClass('hide');
-    $('.tog-projects').addClass('hide');
-    $('.tog-about').removeClass('hide');
-  });
-
-$(function() {
-    $( ".imgprofile").draggable();
-  	});
-
-$(".btn-more").click(function () {
-  	$(this).toggleClass('active');
-  	$(this).next('.caption-slide').slideToggle();
-  	// console.log('clickbuttonevent');
-});
-
+	if ($(window).width() > 600) {
+		$('.nav').removeClass('nav-new')
+	}
 
 });
