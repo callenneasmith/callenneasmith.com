@@ -43,6 +43,8 @@ a:active {
   display: none;
 }
 
+
+
 .footer {
 	width:25%;
 	padding-right:15px;
@@ -92,6 +94,7 @@ a:active {
 
 .des {
 	columns:3;
+	width:100%;
 }
 
 .note {
@@ -100,12 +103,13 @@ a:active {
 
 .k-2 {
 	border-top:1px #191919 solid;
-	position:static;
+	position:relative;
 	width:100%;
 }
 
 .b {
 	border-bottom:1px #191919 solid;
+	position:relative;
 }
 
 .nav {
