@@ -9,4 +9,13 @@ $(document).ready(function(){
 		$('.nav').removeClass('nav-new')
 	}
 
+
+	if ($(window).width() < 600) {
+		$('.me').addClass('hide')
+	}
+
+	if ($(window).width() > 600) {
+		$('.me').removeClass('hide')
+	}
+
 });

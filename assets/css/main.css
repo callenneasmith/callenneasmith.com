@@ -5,6 +5,7 @@ body {
 	line-height: 17px;
 	color:#191919;
 	text-align:justify;
+	cursor: url(assets/default.svg);
 }
 
 p {
@@ -190,6 +191,10 @@ a:active {
 
 .c-pad {
 	padding-top:5px;
+}
+
+.hide {
+	display:none;
 }
 
 @media (max-width:600px) {
