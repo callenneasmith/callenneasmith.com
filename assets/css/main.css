@@ -1,11 +1,17 @@
 body {
-	font-family:arial, sans-serif;
+	font-family: 'MiedingerBook';
+   	font-weight: normal;
 	font-size:14px;
 	letter-spacing:-0.5px;
 	line-height: 17px;
 	color:#191919;
 	text-align:justify;
 	cursor: url(assets/default.svg);
+	-webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 p {
