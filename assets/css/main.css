@@ -5,7 +5,7 @@ body {
 	letter-spacing:-0.5px;
 	line-height: 17px;
 	color:#191919;
-	text-align:justify;
+	text-align:left;
 	cursor: url(assets/default.svg);
 	-webkit-font-smoothing: antialiased;
 }
