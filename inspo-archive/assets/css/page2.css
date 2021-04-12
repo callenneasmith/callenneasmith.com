@@ -34,7 +34,35 @@ a:hover {
 
 }
 
+.btn {
+    border:1px solid #191919;
+    border-radius:50px;
+    padding:2px;
+    padding-left:4px;
+    padding-right:4px;
+    margin-left:4px;
+}
+
+.btn:hover {
+    color:white;
+    background-color:red;
+    cursor:pointer;
+    border:1px solid red;
+}
+
+.hide {
+    display:none;
+}
+
 /* column one */
+
+.nav-r {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-4px;
+    
+}
 
 
 .col1 {
@@ -50,11 +78,6 @@ a:hover {
 
 }
 
-.img {
-	background-image:url(assets/vinylGSF.png);
-	width:100%;
-}
-
 /* column two */
 
 .col2 {
@@ -63,7 +86,6 @@ a:hover {
 	padding-top:5px;
 	padding-right:5px;
 	padding-left:5px;
-    padding-bottom: 5vh;
 
 	border-right:1px #191919 solid;
 
@@ -78,58 +100,9 @@ a:hover {
 	padding-top:5px;
 	padding-right:5px;
 	padding-left:5px;
-    padding-bottom: 5vh;
 
 
 	overflow:scroll;
-}
-
-@media (max-width:850px) {
-	body {
-    font-family: Helvetica;
-    font-size: 18px;
-    text-align: left;
-    letter-spacing: -0.4px;
-    padding-right: 0px;
-    color: #191919;
-	}
-
-	.col1 {
-    width: 100%;
-    height: 12vh;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-left: 5px;
-    border-right: 0px #191919 solid;
-    border-bottom: 1px solid #191919;
-    overflow: inherit;
-    position: fixed;
-    background-color: white;
-	}
-
-	.col2 {
-    width: 50%;
-    height: 88vh;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    border-right: 1px #191919 solid;
-    overflow: scroll;
-
-    margin-top:10vh;
-	}
-
-	.col3 {
-    width: 50%;
-    height: 88vh;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-left: 5px;
-    border-right: 1px #191919 solid;
-    overflow: scroll;
-
-    margin-top:10vh;
-    }
 }
 
 
