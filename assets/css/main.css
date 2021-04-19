@@ -1,13 +1,14 @@
 body {
-	font-family: 'MiedingerBook';
+	font-family: 'MiedingerBook', sans-serif;
    	font-weight: normal;
 	font-size:14px;
 	letter-spacing:-0.5px;
 	line-height: 17px;
-	color:#191919;
+	color:#292F36;
 	text-align:left;
-	cursor: url(assets/default.svg);
 	-webkit-font-smoothing: antialiased;
+
+	background-color:#F6F6F3;
 }
 
 body::-webkit-scrollbar {
@@ -15,17 +16,17 @@ body::-webkit-scrollbar {
 }
 
 p {
-	color:#808080;
+	color:#3D4751;
 }
 
 a {
 	text-decoration:none;
-	color:#191919;
+	color:#292F36;
 	transition:0.5s;
 }
 
 a:hover {
-	color:crimson;
+	color:#F06449;
 	transition:0.5s;
 }
 
@@ -41,7 +42,6 @@ a:active {
 .box {
 	display:flex;
 	flex-wrap:wrap;
-	background-color:white;
 	-ms-overflow-style: none;
   	scrollbar-width: none;
 }
@@ -75,7 +75,6 @@ a:active {
 	border-bottom:1px #191919 solid;
 	width:100%;
 	position:relative;
-	padding-top:0px;
 }
 
 
@@ -89,6 +88,10 @@ a:active {
 	width:50%;
 	object-fit: cover;
 	padding-bottom:2.5px;
+}
+
+.btn {
+	text-decoration:underline;
 }
 
 /* projects */
@@ -202,6 +205,11 @@ a:active {
 .hide {
 	display:none;
 }
+
+/* cursors */
+
+
+
 
 @media (max-width:600px) {
 
