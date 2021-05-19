@@ -156,6 +156,11 @@ p {
 	background-color:#3C77FB;
 }
 
+.blue.fp {
+	background-color:#3C77FB;
+	width:33.3%;
+}
+
 .caption {
 }
 
@@ -567,6 +572,10 @@ p {
 
 	.sub {
 	font-size:20px;
+	}
+
+	.blue.fp {
+		width:50%;
 	}
 }
 
