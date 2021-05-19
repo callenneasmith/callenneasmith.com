@@ -440,6 +440,10 @@ p {
 	font-size:28px;
 	}
 
+	.blue.fp {
+		width:50%;
+	}
+
 }
 
 @media (max-width:600px) {
