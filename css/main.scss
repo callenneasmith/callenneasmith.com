@@ -1,0 +1,606 @@
+@import "root.scss";
+@import "breakpoints.scss";
+
+html,
+body {
+  box-sizing: border-box;
+  background-color: var(--offwhite);
+  font-family: "NeueHaasRoman";
+  height: 100%;
+}
+
+::selection {
+  background: var(--richblack);
+  color: var(--offwhite);
+}
+
+.wrapper {
+  overflow-x: hidden;
+  padding: var(--main-pad);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  max-width: 100vw;
+  position: relative;
+  font-family: inherit;
+  @include media("<=phone") {
+    flex-direction: column;
+  }
+}
+
+.fish-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  top: 50%;
+  pointer-events: none;
+  z-index: 900;
+  &__img {
+    width: 100%;
+    max-height: 530px;
+    pointer-events: none;
+    @include media("<=phone") {
+      height: 210px;
+      width: auto;
+    }
+  }
+  @include media("<=phone") {
+    position: unset;
+    display: flex;
+    justify-content: center;
+    left: none;
+    transform: none;
+    top: none;
+  }
+}
+
+.fish {
+  &__container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 55px;
+    padding: var(--main-pad);
+    @include media("<=phone") {
+      margin: 0;
+      margin-bottom: var(--mobile-pad40);
+      position: relative;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: var(--small-pad);
+      width: 100%;
+    }
+  }
+
+  &__desc {
+    text-transform: uppercase;
+    font-size: var(--copy-titles);
+    font-family: "HappyTimesRegular";
+    margin-bottom: var(--small-pad);
+    @include media("<=phone") {
+      width: 50vw;
+    }
+  }
+
+  &__img {
+    display: block;
+    @include media("<=phone") {
+      display: none;
+    }
+    &--mobile {
+      display: none;
+      @include media("<=phone") {
+        display: block;
+      }
+    }
+  }
+}
+
+.left {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  &__title-container {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    @include media("<=phone") {
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      padding: var(--main-pad);
+      background-color: var(--offwhite);
+      z-index: 999;
+      margin-bottom: 0;
+      border-bottom: 1px solid var(--richblack);
+    }
+  }
+
+  &__title {
+    font-size: var(--title-size);
+    padding: var(--smal-pad);
+    @include media("<=phone") {
+      font-size: var(--copy-size);
+    }
+  }
+
+  &__occu {
+    font-size: var(--copy-titles);
+    text-transform: uppercase;
+    margin-left: var(--small-pad);
+    margin-bottom: var(--small-pad);
+    font-family: "HappyTimesRegular";
+    @include media("<=phone") {
+      display: none;
+    }
+  }
+
+  &__menu {
+    display: none;
+    z-index: 999;
+    @include media("<=phone") {
+      display: block;
+      cursor: pointer;
+    }
+  }
+  &__line {
+    width: 25px;
+    height: 2px;
+    margin: 6px;
+    background-color: var(--richblack);
+  }
+
+  &__menu-x {
+    display: none;
+    height: 30px;
+    width: 37px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "NeueHaasRoman";
+    @include media("<=phone") {
+      display: none;
+      cursor: pointer;
+    }
+  }
+
+  &__close-menu {
+    display: none;
+    @include media("<=phone") {
+      display: flex;
+    }
+  }
+
+  &__project-slider {
+    width: 50vw;
+    height: 100%;
+    position: fixed;
+    background: var(--offwhite);
+    border-left: 1px solid var(--richblack);
+    box-shadow: 10px 0px 10px var(--grey);
+    top: 0;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  &__project-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__close-slider {
+    width: 50vw;
+    height: 100%;
+    position: fixed;
+    background: var(--offwhite);
+    border-left: 1px solid var(--richblack);
+    box-shadow: 10px 0px 10px var(--grey);
+    top: 0;
+    right: -50vw;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  &__open-slider {
+    width: 50vw;
+    height: 100%;
+    position: fixed;
+    background: var(--offwhite);
+    border-left: 1px solid var(--richblack);
+    box-shadow: 10px 0px 10px var(--grey);
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  &__slider-header {
+    display: inline-block;
+    height: auto;
+    width: max-content;
+    padding: 15px;
+    font-size: var(--copy-titles);
+    border-right: 1px solid var(--richblack);
+    cursor: pointer;
+  }
+  &__slider-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    border-top: 1px solid var(--richblack);
+    padding: var(--main-pad);
+    font-family: "HappyTimesRegular";
+    font-size: var(--copy-titles);
+    text-transform: uppercase;
+    @include media("<=phone") {
+      flex-direction: column;
+    }
+  }
+  &__slider-title {
+    width: 100%;
+    em {
+      font-size: var(--copy-size);
+      text-transform: initial;
+      font-family: "NeueHaasRoman";
+    }
+    @include media("<=phone") {
+      padding-bottom: var(--main-pad);
+    }
+  }
+  &__slider-gist {
+    width: 100%;
+    margin-right: var(--small-pad);
+  }
+
+  &__slider-gist-item {
+    border-bottom: 1px solid var(--richblack);
+    font-size: var(--gistext);
+
+    &--active {
+      text-transform: initial;
+      font-family: "NeueHaasRoman";
+      padding-top: var(--vsmall-pad);
+    }
+  }
+  &__slider-external {
+    width: 100%;
+  }
+  &__slider-external-item {
+    border-bottom: 1px solid var(--richblack);
+    font-size: var(--gistext);
+  }
+  &__slider-external-tech {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--richblack);
+    padding-top: var(--vsmall-pad);
+    padding-bottom: var(--vsmall-pad);
+    text-transform: initial;
+    font-family: "NeueHaasRoman";
+  }
+  @include media(">phone") {
+    &__slider-external-tech:hover {
+      .left__circle {
+        display: block;
+        opacity: 1;
+      }
+    }
+    &__slider-external-tech:focus {
+      .left__circle {
+        display: block;
+        background-color: var(--red);
+        opacity: 1;
+      }
+    }
+  }
+  &__mobile-wrapper {
+    display: contents;
+    @include media("<=phone") {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &__slider-info {
+    width: 66%;
+    float: right;
+    text-align: left;
+    margin-left: auto;
+    padding-right: var(--main-pad);
+    font-size: var(--copy-titles);
+    @include media("<=phone") {
+      width: 100%;
+      padding-left: var(--main-pad);
+    }
+  }
+  &__slider-imgs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  &__slider-img-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    img {
+      width: 100%;
+      height: auto;
+      // padding: var(--main-pad);
+      padding-bottom: 0;
+      @include media("<=phone") {
+        // padding: var(--small-pad);
+      }
+    }
+  }
+
+  &__projects {
+    width: 75%;
+    height: auto;
+    @include media("<=phone") {
+      width: 100%;
+      margin-top: 70px;
+      margin-bottom: var(--mobile-pad40);
+    }
+  }
+
+  &__project-list {
+    width: 100%;
+    font-size: var(--copy-size);
+    list-style: none;
+    cursor: pointer;
+  }
+
+  &__project-item {
+    border-bottom: 1px solid var(--richblack);
+    padding-top: var(--vsmall-pad);
+    padding-bottom: var(--vsmall-pad);
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: inherit;
+    transition: all 0.2s ease 0s;
+
+    &--active {
+      cursor: initial;
+      text-transform: uppercase;
+      font-size: var(--copy-titles);
+      font-family: "HappyTimesRegular";
+    }
+  }
+  @include media(">phone") {
+    &__project-item:hover {
+      .left__circle {
+        display: block;
+        opacity: 1;
+      }
+    }
+    &__project-item:focus {
+      color: var(--red);
+      border-bottom: 1px solid var(--red);
+      .left__circle {
+        display: block;
+        background-color: var(--red);
+        opacity: 1;
+      }
+    }
+  }
+  &__circle {
+    width: var(--copy-size);
+    height: var(--copy-size);
+    background: black;
+    border-radius: 50%;
+    display: none;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    margin-right: var(--vsmall-pad);
+    &--active {
+      width: var(--copy-titles);
+      height: var(--copy-titles);
+    }
+  }
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+  // z-index: -1;
+
+  &__contact {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: auto;
+    margin-bottom: var(--main-pad);
+    @include media("<=phone") {
+      display: none;
+      position: fixed;
+      top: 0;
+      margin-top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: var(--offwhite);
+      border-bottom: 1px solid var(--richblack);
+      margin-bottom: 0;
+      padding: var(--main-pad);
+      box-shadow: 0px 5px 5px var(--grey);
+      z-index: 999;
+    }
+  }
+
+  &__contact-container {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  &__contact-container:first-child {
+    @include media("<=phone") {
+      border-top: 1px solid var(--richblack);
+    }
+  }
+
+  &__contact-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--richblack);
+    font-size: var(--copy-titles);
+    padding-bottom: var(--vsmall-pad);
+    padding-top: var(--vsmall-pad);
+    margin-right: var(--small-pad);
+    @include media("<=phone") {
+      margin-right: 0;
+      font-size: var(--copy-titles);
+    }
+
+    &--active {
+      border-top: 1px solid var(--richblack);
+      @include media("<=phone") {
+        border-top: none;
+      }
+    }
+  }
+  @include media(">phone") {
+    &__contact-item:hover {
+      .left__circle {
+        display: block;
+        opacity: 1;
+      }
+    }
+    &__project-item:focus {
+      color: var(--red);
+      border-bottom: 1px solid var(--red);
+      .left__circle {
+        display: block;
+        background-color: var(--red);
+        opacity: 1;
+      }
+    }
+  }
+
+  &__publishing {
+    width: 75%;
+    height: auto;
+    @include media("<=phone") {
+      width: 100%;
+      margin-bottom: var(--mobile-pad40);
+    }
+  }
+
+  &__pub-list {
+    width: 100%;
+    font-size: var(--copy-size);
+    list-style: none;
+    cursor: pointer;
+  }
+
+  &__pub-item {
+    border-bottom: 1px solid var(--richblack);
+    padding-top: var(--vsmall-pad);
+    padding-bottom: var(--vsmall-pad);
+    display: flex;
+    align-items: center;
+    &--active {
+      cursor: initial;
+      text-transform: uppercase;
+      font-size: var(--copy-titles);
+      font-family: "HappyTimesRegular";
+    }
+  }
+
+  @include media(">phone") {
+    &__pub-item:hover {
+      .left__circle {
+        display: inline-block;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__misc {
+    width: 75%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    @include media("<=phone") {
+      position: relative;
+      width: 100%;
+      margin-top: var(--main-pad);
+    }
+  }
+
+  &__misc-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__indiv-misc-container {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    list-style: none;
+    font-size: var(--copy-size);
+    list-style: none;
+    margin-bottom: var(--main-pad);
+  }
+
+  &__misc-item {
+    &--active {
+      cursor: initial;
+      text-transform: uppercase;
+      font-size: var(--copy-titles);
+      font-family: "HappyTimesRegular";
+    }
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
