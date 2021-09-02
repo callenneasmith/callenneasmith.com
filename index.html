@@ -1,116 +1,531 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Callen Neasmith | Melbourne Based Designer</title>
-    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
-  	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/miedinger" type="text/css"/>
-    <link rel="icon" type="image/png" href="assets/favicon.svg">
-  	<script src="assets/js/jquery-3.4.1.min.js"></script>
-  	<script src="assets/js/main.js"></script>
-
-    <style type="text/css">
-      body, html {
-        cursor: url(assets/cursors/default1.png), auto;
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6FZJTZDJ6Q"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    </style>
+      gtag("js", new Date());
 
+      gtag("config", "G-6FZJTZDJ6Q");
+    </script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Callen Neasmith | Melbourne Based Designer</title>
+    <meta name="author" content="Callen Neasmith" />
+    <meta
+      name="description"
+      content="This is the portfolio of Callen Neasmith, 
+      a freelance graphic & digital designer working out of Melbourne."
+    />
+    <!-- <meta name="google-site-verification" content="#" /> -->
+    <meta name="theme-color" content="#f7f7f7" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, 
+      maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="referrer" content="origin-when-cross-origin" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <!-- DO NOT REMOVE ABOVE -->
-    <!-- start here -->
+    <div class="wrapper">
+      <!------- LEFT ------->
+      <div class="left">
+        <!------- TITLE AND OCCUPATION ------->
+        <div class="left__title-container">
+          <div class="left__title">Callen Neasmith</div>
+          <div class="left__occu">Digital & <br />Graphic Designer</div>
+          <div id="menu" class="left__menu">
+            <div class="left__line"></div>
+            <div class="left__line"></div>
+            <div class="left__line"></div>
+          </div>
+          <span id="menu-x" class="left__menu-x">✕</span>
+        </div>
+        <!------- PROJECTS ------->
+        <div class="left__projects">
+          <ul class="left__project-list">
+            <li class="left__project-item left__project-item--active">
+              Selected Projects
+            </li>
+            <li tabindex="1" class="left__project-item left__bedford-pizzeria">
+              <div class="left__circle"></div>
+              Bedford Pizzeria
+            </li>
+            <li tabindex="1" class="left__project-item left__love-project">
+              <div class="left__circle"></div>
+              Love Project
+            </li>
+            <li tabindex="1" class="left__project-item left__mapmoon">
+              <div class="left__circle"></div>
+              Map of the Moon
+            </li>
+            <li tabindex="1" class="left__project-item left__ban-bomb">
+              <div class="left__circle"></div>
+              Ban the Bomb
+            </li>
+            <li
+              tabindex="1"
+              class="left__project-item left__final-hope-medical"
+            >
+              <div class="left__circle"></div>
+              Final Hope Medical
+            </li>
+          </ul>
+        </div>
+        <!------- SLIDER PAGES (MOBILE & DESKTOP)------->
 
-    <div class="box">
-      
+        <div id="bedford-pizzeria" class="left__close-slider">
+          <div id="bedford-pizzeria-close" class="left__slider-header">CLOSE</div>
+          <div class="left__slider-titles">
+            <div class="left__slider-title">
+              Visual Identity <br />
+              <em>Bedford Pizzeria</em>
+            </div>
+            <div class="left__mobile-wrapper">
+              <div class="left__slider-gist">
+                <div class="left__slider-gist-item">The Gist of It</div>
+                <div class="left__slider-gist-item--active">
+                  Print, Web, Digital <br />
+                  2021 <br />Client: Bedford Boys
+                </div>
+              </div>
+              <div class="left__slider-external">
+                <div class="left__slider-external-item">External Links</div>
+                <div class="left__slider-external-item--active">
+                  <!-- COPY FOR LINKS -->
+                  <div class="left__slider-external-tech">
+                    <div class="left__circle left__circle--active"></div>
+                    <a target="_blank" href="https://www.figma.com/file/eidr2F4mEGAv9tt65XzWsA/Bedford-Pizzeria?node-id=0%3A1">Figma Prototype</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left__slider-info">
+            Bedford Pizzeria is a North Melbourne Pizzeria with an affinity for good food and mateship - churning out Pizza from a grungy, secluded laneway. Bedford seeks to target a younger demographic of adults who are likely to engage with the Pizzeria not only for its good food but the complimentary banter and charming nature of the restaurant.
+          </div>
+          <div class="left__slider-imgs">
+            <!-- IMAGE ROW -->
+            <div class="left__slider-img-container">
+              <img src="assets/imgs/bedford_pizzeria/bedford3.jpg" alt="bedford1" />
+            </div>
+            <!-- IMAGE ROW -->
+            <div class="left__slider-img-container">
+              <img
+                style="width: 60%; padding-right: 0px"
+                src="assets/imgs/bedford_pizzeria/bedford-2.gif"
+                alt="bedford2"
+              />
+              <img
+                style="width: 40%"
+                src="assets/imgs/bedford_pizzeria/bedford1.jpg"
+                alt="bedford3"
+              />
+            </div>
+            <!-- IMAGE ROW -->
+            <div class="left__slider-img-container">
+              <img
+                style="width: 30%; padding-right: 0px" 
+                src="assets/imgs/bedford_pizzeria/bedford4.jpg"
+                alt="bedford4" />
+              <img 
+                style="width: 70%"
+                src="assets/imgs/bedford_pizzeria/bedford5.jpg"
+                alt="bedford5" />
+            </div>
+          </div>
+        </div>
 
-    <div class="footer">
-      Callen Neasmith <br>
-      <div class="keyline"></div>
-      <p>Melbourne Based Designer</p> <br>
-      <a class="btn" target="blank" href="https://www.instagram.com/callencallencallen/">Instagram</a> <br> 
-      <a class="btn" href="assets/callen-neasmith-folio2020.pdf" download>Folio</a> <br> <br>
-      <p>Contact Me</p>
-      <a class="btn" href="mailto: calneasmith@gmail.com">Email</a> <br>
-      <a class="btn" target="blank" href="https://www.linkedin.com/in/callen-neasmith/">LinkedIn</a> <br> <br>
-      <p>© Callen Neasmith 2021</p>
+        <div id="love-project" class="left__close-slider">
+          <div id="love-project-close" class="left__slider-header">CLOSE</div>
+          <div class="left__slider-titles">
+            <div class="left__slider-title">
+              Visual Identity <br />
+              <em>Love Project</em>
+            </div>
+            <div class="left__mobile-wrapper">
+              <div class="left__slider-gist">
+                <div class="left__slider-gist-item">The Gist of It</div>
+                <div class="left__slider-gist-item--active">
+                  Digital, Social, Print. <br />
+                  2021 <br />Client: Love Project AU
+                </div>
+              </div>
+              <div class="left__slider-external">
+                <div class="left__slider-external-item">External Links</div>
+                <div class="left__slider-external-item--active">
+                  <!-- COPY FOR LINKS -->
+                  <div class="left__slider-external-tech">
+                    <div class="left__circle left__circle--active"></div>
+                    <a target="_blank" href="https://www.figma.com/file/QFcxwqBqlhFerOQfYQ7zNW/LOVE-PROJECT_SPRINT">Figma - Sprint File</a>
+                  </div>
 
-    </div>
+                  <div class="left__slider-external-tech">
+                    <div class="left__circle left__circle--active"></div>
+                    <a target="_blank" href="https://www.instagram.com/loveprojectau/?hl=en">Love Project Instagram</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left__slider-info">
+            A Naarm-Based music and arts initative creating welcoming, surreal spaces celebrating music and community. Love Project wishes to share its passion for music through beautiful events and sharing performances of local and international talent. Love Project branding encaptulates a moment of serenity, encouraging its community to take a step back from the hustle and bustle of the everyday and to be present in a single moment. The graphic system implemented is versatile, reductive yet recognisable to represent the bespoke, understated nature of the brand.
+          </div>
+          <div class="left__slider-imgs">
+            <!-- IMAGE ROW -->
+            <div class="left__slider-img-container">
+              <img src="assets/imgs/love-project/love-project1.jpg" alt="loveproject1"/>
+            </div>
+            <!-- IMAGE ROW -->
+            <div class="left__slider-img-container">
+              <img
+                style="width: 50%; padding-right: 0px"
+                src="assets/imgs/love-project/love-project2.gif"
+                alt="bedford2"
+              />
+              <img
+                style="width: 50%"
+                src="assets/imgs/love-project/love-project3.gif"
+                alt="bedford3"
+              />
+            </div>
+            <!-- IMAGE ROW -->
+            <div class="left__slider-img-container">
+              <img
+                style="width: 40%; padding-right: 0px" 
+                src="assets/imgs/love-project/love-project4.jpg"
+                alt="bedford4" />
+              <img 
+                style="width: 60%"
+                src="assets/imgs/love-project/love-project5.jpg"
+                alt="bedford5" />
+            </div>
+          </div>
+        </div>
 
-    <div class="frame">
-      <div class="header">
-        <div class="title">
-          Selected Online Projects
+        <div id="mapmoon" class="left__close-slider">
+          <div id="mapmoon-close" class="left__slider-header">CLOSE</div>
+          <div class="left__slider-titles">
+            <div class="left__slider-title">
+              Visual Identity <br />
+              <em>Map of the Moon</em>
+            </div>
+            <div class="left__mobile-wrapper">
+              <div class="left__slider-gist">
+                <div class="left__slider-gist-item">The Gist of It</div>
+                <div class="left__slider-gist-item--active">
+                  Print, Web, Motion. <br />
+                  2020 <br />Lecturer: Warren Taylor
+                </div>
+              </div>
+              <div class="left__slider-external">
+                <div class="left__slider-external-item">External Links</div>
+                <div class="left__slider-external-item--active">
+                  <div class="left__slider-external-tech">
+                    <div class="left__circle left__circle--active"></div>
+                    <a target="_blank" href="https://www.instagram.com/p/CBhOnvLh3FS/">Motion Outcome</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left__slider-info">
+            Set in a time where commercial travel between the Earth and the Moon
+            is possible, visitors are invited to explore its surface within the
+            bounds of the Moon Lander Station. ‘Map of the Moon’ is an
+            educational poster and brochure offering users a means of guidance
+            whilst interacting with Luna.
+          </div>
+          <div class="left__slider-imgs">
+            <div class="left__slider-img-container">
+              <img src="assets/imgs/map_moon/mapmoon1.jpg" alt="mapmoon1" />
+            </div>
+            <div class="left__slider-img-container">
+              <img
+                style="width: 75%; padding-right: 0px"
+                src="assets/imgs/map_moon/mapmoon3.gif"
+                alt="mapmoon3"
+              />
+              <img
+                style="width: 25%"
+                src="assets/imgs/map_moon/mapmoon3.jpg"
+                alt="mapmoon3"
+              />
+            </div>
+            <div class="left__slider-img-container">
+              <!-- bottom img must have padding -->
+              <img src="assets/imgs/map_moon/mapmoon4.jpg" alt="mapmoon4" />
+            </div>
+          </div>
+        </div>
+
+        <div id="ban-bomb" class="left__close-slider">
+          <div id="ban-bomb-close" class="left__slider-header">CLOSE</div>
+          <div class="left__slider-titles">
+            <div class="left__slider-title">
+              Visual Identity <br />
+              <em>Ban the Bomb</em>
+            </div>
+            <div class="left__mobile-wrapper">
+              <div class="left__slider-gist">
+                <div class="left__slider-gist-item">The Gist of It</div>
+                <div class="left__slider-gist-item--active">
+                  Print, Publication, Motion. <br />
+                  2020 <br />Lecturer: Alex Margetic
+                </div>
+              </div>
+              <div class="left__slider-external">
+                <div class="left__slider-external-item">External Links</div>
+                <div class="left__slider-external-item--active">
+                  <div class="left__slider-external-tech">
+                    <div class="left__circle left__circle--active"></div>
+                    <a target="_blank" href="https://www.instagram.com/p/CFzFcJVhLX1/">Full Print Outcome</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left__slider-info">
+            A revitalised campaign from the 1960s utlilising a modern and brutalist approach to drive awareness to the global issue. Contrary to the original campaign which presented itself in a more light-hearted and friendly manner, 'Ban the Bomb' adapts a bold, confronting design style to evoke fear from the audience.
+          </div>
+          <div class="left__slider-imgs">
+            <div class="left__slider-img-container">
+              <img src="assets/imgs/ban-bomb/ban-bomb1.gif" alt="ban-bomb1" />
+            </div>
+            <div class="left__slider-img-container">
+              <img
+                style="width: 40%; padding-right: 0px"
+                src="assets/imgs/ban-bomb/ban-bomb4.jpg"
+                alt="ban-bomb4"
+              />
+              <img
+                style="width: 60%"
+                src="assets/imgs/ban-bomb/ban-bomb3.jpg"
+                alt="ban-bomb3"
+              />
+            </div>
+            <div class="left__slider-img-container">
+              <!-- bottom img must have padding -->
+              <img src="assets/imgs/ban-bomb/ban-bomb2.gif" alt="ban-bomb2" />
+            </div>
+          </div>
+        </div>
+
+        <div id="final-hope-medical" class="left__close-slider">
+          <div id="final-hope-medical-close" class="left__slider-header">CLOSE</div>
+          <div class="left__slider-titles">
+            <div class="left__slider-title">
+              Visual Identity <br />
+              <em>Final Hope Medical</em>
+            </div>
+            <div class="left__mobile-wrapper">
+              <div class="left__slider-gist">
+                <div class="left__slider-gist-item">The Gist of It</div>
+                <div class="left__slider-gist-item--active">
+                  Print, Publication, Motion. <br />
+                  2020 <br />Lecturer: Cameron Rose
+                </div>
+              </div>
+              <div class="left__slider-external">
+                <div class="left__slider-external-item">External Links</div>
+                <div class="left__slider-external-item--active">
+                  <div class="left__slider-external-tech">
+                    <div class="left__circle left__circle--active"></div>
+                    <a target="_blank" href="https://www.instagram.com/p/CBupFIJBXjQ/">Motion Outcome</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left__slider-info">
+            ‘Final Hope Medical’ is a conceptual pharmaceutical company responsible for distributing vaccines in a pandemic. A bold, brutalist graphic style captures the attention of young adults who may be reluctant to get vaccinated. Inspired by Graphic Artist Patrick Thomas, the use of abstract symbolism within his works such 'Automation' convey messages in a memorable and unique manner. Despite no direct correlation, the range and consistent graphic style is enduring and engaging.
+          </div>
+          <div class="left__slider-imgs">
+            <div class="left__slider-img-container">
+              <img src="assets/imgs/final-hope-medical/fhm1.gif" alt="final-hope-medical1" />
+            </div>
+            <div class="left__slider-img-container">
+              <img
+                style="width: 50%; padding-right: 0px"
+                src="assets/imgs/final-hope-medical/fhm3.jpg"
+                alt="final-hope-medical3"
+              />
+              <img
+                style="width: 50%"
+                src="assets/imgs/final-hope-medical/fhm2.jpg"
+                alt="final-hope-medical2"
+              />
+            </div>
+            <div class="left__slider-img-container">
+              <img
+                style="width: 50%; padding-right: 0px"
+                src="assets/imgs/final-hope-medical/fhm4.jpg"
+                alt="final-hope-medical4"
+              />
+              <img
+                style="width: 50%"
+                src="assets/imgs/final-hope-medical/fhm5.jpg"
+                alt="final-hope-medical5"
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!------- MIDDLE FISH ARRAY ------->
+      <div class="fish-wrapper">
+        <img
+          id="fishImgsArray"
+          class="fish-wrapper__img"
+          src="assets/imgs/fish/fish-img/angel1.png"
+          alt="fish-images"
+        />
+      </div>
+      <!------- FISH DESCRIPTIONS ------->
+      <div class="fish__container">
+        <div class="fish__desc">Fish Species</div>
+        <img
+          id="fishDescArray"
+          class="fish__img"
+          src="assets/imgs/fish/fish-desc/desktop/angel1-text.png"
+          alt="angel1"
+        />
+        <img
+          id="fishDescArrayMobile"
+          class="fish__img fish__img--mobile"
+          src="assets/imgs/fish/fish-desc/mobile/angel1-text-mob.png"
+          alt="angel1-text"
+        />
+      </div>
+      <!------- RIGHT ------->
+      <div class="right">
+        <!------- CONTACTS ------->
+        <div class="right__flex right__contact">
+          <ul class="right__contact-container">
+            <li class="right__contact-item right__contact-item--active">
+              <div class="left__circle left__circle--active"></div>
+              <a
+                target="_blank"
+                href="mailto:calneasmith@gmail.com?subject=Hello There"
+              >
+                Contact Me
+              </a>
+            </li>
+            <li class="right__contact-item">
+              <div class="left__circle left__circle--active"></div>
+              <a target="_blank" href="assets/callenneasmith-folio2020.pdf">
+                Folio
+              </a>
+            </li>
+          </ul>
+
+          <ul class="right__contact-container">
+            <li class="right__contact-item right__contact-item--active">
+              <div class="left__circle left__circle--active"></div>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/callencallencallen/"
+              >
+                Instagram
+              </a>
+            </li>
+            <li class="right__contact-item">
+              <div class="left__circle left__circle--active"></div>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/callen-neasmith/"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!------- PUBLISHING ------->
+        <div class="right__publishing">
+          <ul class="right__pub-list">
+            <li class="right__pub-item right__pub-item--active">
+              Digital Publishing
+            </li>
+            <li class="right__pub-item">
+              <div class="left__circle"></div>
+              <a target="_blank" href="assets/young-perspectives/index.html">
+                Young Perspectives
+              </a>
+            </li>
+            <li class="right__pub-item">
+              <div class="left__circle"></div>
+              <a target="_blank" href="assets/image-nets/index.html">
+                Business as Unusual
+              </a>
+            </li>
+            <li class="right__pub-item">
+              <div class="left__circle"></div>
+              <a target="_blank" href="assets/711-archive/index.html">
+                Documentation: 7-Eleven Melbourne
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!------- MISC ------->
+        <div class="right__misc">
+          <div class="right__misc-container">
+            <ul class="right__indiv-misc-container">
+              <li class="right__misc-item right__misc-item--active">
+                Location
+              </li>
+              <li class="right__misc-item">
+                ChapMansion, <br />North Melbourne
+              </li>
+            </ul>
+            <ul class="right__indiv-misc-container">
+              <li class="right__misc-item right__misc-item--active">👀</li>
+              <li class="right__misc-item">
+                <a target="_blank" href="https://new-worlds.tv/"
+                  >New Worlds TV</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="right__misc-container">
+            <ul class="right__indiv-misc-container">
+              <li class="right__misc-item right__misc-item--active">Time</li>
+              <li class="right__misc-item">
+                <div id="time" class="right__time"></div>
+                <div id="date" class="right__date"></div>
+              </li>
+            </ul>
+            <ul class="right__indiv-misc-container">
+              <li class="right__misc-item right__misc-item--active">
+                Drinking
+              </li>
+              <li class="right__misc-item">
+                7-Eleven Coffee <br />
+                (In a Keep Cup)
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-        <div class="keyline"></div> <br>
-      <a class="btn" target="blank" href="http://callenneasmith.com/young-perspectives/">1. Young Perspectives</a> <br>
-        <p>Writing platform designed for close friends to share their stories about life from the viewport of their 20s. </p> <br>
-      <a class="btn" target="blank" href="https://callenneasmith.com/image-nets/index">2. Business As Unusual: Melbourne</a> <br>
-        <p>Photographic archive documenting the devastating effect COVID-19 has had on business small and large within Victoria’s Capital City. </p> <br>
-      <a class="btn" target="blank" href="https://callenneasmith.com/711-archive/">3. Documentation: 7-Eleven Melbourne</a> <br>
-        <p>A constant WIP project documenting the unique and diverse ‘7-Eleven’ stores of Melbourne. </p> <br>
-      <a class="btn" target="blank" href="https://callenneasmith.com/inspo-archive/">4. Inspire Me</a> <br>
-        <p>Designers resources highlighting inspiring design studios/individuals and other useful resources. </p> <br> <br>
-
-        Projects <br>
-          <div class="keyline">
-          </div> <br>
-
-      <div class="projects">
-        
-        <div class="holder">
-          <a href="mapmoon.html"><img class="img-thumb" src="assets/images/mapmoon1.jpg"></a>
-        </div>
-
-        <div class="holder">
-          <a href="finalhopemedical.html"><img class="img-thumb r" src="assets/images/fhm1.gif"></a>
-        </div>
-
-        <div class="holder">
-          <a href="bedpizza.html"><img class="img-thumb" src="assets/images/piz5.gif">
-        </div>
-
-        <div class="holder">
-          <a href="banthebomb.html"><img class="img-thumb r" src="assets/images/btb5.gif">
-        </div>
-
-        <div class="holder">
-          <a href="mod.html"><img class="img-thumb" src="assets/images/mod1.jpg"></a>
-        </div>
-
-        <div class="holder">
-          <a href="asp.html"><img class="img-thumb r" src="assets/images/asp2.jpg"></a>
-        </div>
-
-        <div class="holder">
-          <a href="baum.html"><img class="img-thumb" src="assets/images/baum1.gif"></a>
-        </div>
-
-        <div class="holder">
-          <a href="rtedgar.html"><img class="img-thumb r" src="assets/images/rt2.png"></a>
-        </div>
-
-        <div class="holder">
-          <a href="bedford.html"><img class="img-thumb" src="assets/images/bed3.jpg"></a>
-        </div>
-
-      </div>
-
     </div>
 
-
-    </div>
-
-
-
-
-
-
-
-
-    <!-- DO NOT REMOVE BELOW -->
-    <!-- end here -->
+    <!------- SCRIPTS ------->
+    <script src="js/main.js"></script>
+    <script src="js/timer.js"></script>
+    <script>
+      console.log("Developed by Olly Evans :)");
+    </script>
   </body>
 </html>
