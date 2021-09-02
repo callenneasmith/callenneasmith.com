@@ -1,0 +1,28 @@
+body {
+	font-family:Arial,sans-serif;
+	font-size: 14px;
+	line-height:110%;
+	margin-top:40vh;
+	text-align:justify;
+}
+
+a {
+	color:red;
+}
+
+
+.box {
+	display:flex;
+	flex-wrap: wrap;
+	padding:10px;
+}
+
+.prompt {
+	width:25%;
+	padding:0px 10px 0px 0px;
+	font-family:georgia;
+}
+
+.goal {
+	width:50%;
+}

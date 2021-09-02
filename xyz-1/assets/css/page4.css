@@ -1,0 +1,103 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 8vw;
+	text-align: left;
+	letter-spacing:-0.6vw;
+}
+
+
+.object {
+	background-color:#FE5F55;
+	padding-left:20px;
+	color:#191919;
+}
+
+
+.place {
+	background-color:#FE5F55;
+	padding-left:20px;
+}
+
+
+.name {
+	background-color:#FE5F55;
+	text-align:right;
+	color:#191919;
+	padding-right:20px;
+}
+
+.info {
+	color:white;
+	background-color:#191919;
+	padding-left:20px;
+	font-size:3.5vw;
+	line-height:3vw;
+	letter-spacing:-0.2vw;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+.word1 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word2 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.word3 {
+	font-family:times;
+	font-style:italic;
+}
+
+
+.repeater1 {
+	background-color:#577399;
+	padding-left:40vw;
+}
+
+.repeater2 {
+	background-color:#495867;
+	padding-left:35vw;
+}
+
+.repeater3 {
+	background-color:#CEFF1A;
+	padding-left:30vw;
+}
+
+.repeater4 {
+	background-color:#BDD5EA;
+	padding-left:25vw;
+}
+
+
+.rep1 {
+	background-color:#577399;
+	padding-left:22vw;
+}
+
+.rep2 {
+	background-color:#495867;
+	padding-left:27vw;
+}
+
+.rep3 {
+	background-color:#CEFF1A;
+	padding-left:32vw;
+}
+
+.rep4 {
+	background-color:#BDD5EA;
+	padding-left:37vw;
+}
+
+
+
+
+
