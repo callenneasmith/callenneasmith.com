@@ -162,11 +162,14 @@ section {
 // HTML CONFIG
 //
 *,
-:after,
-:before {
+*::after,
+*::before {
   box-sizing: inherit;
   border-color: rgb(226, 232, 240);
   overflow-wrap: break-word;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
 }
 
 * {

@@ -131,12 +131,15 @@ section {
 }
 
 *,
-:after,
-:before {
+*::after,
+*::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   border-color: #e2e8f0;
   overflow-wrap: break-word;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
 }
 
 * {

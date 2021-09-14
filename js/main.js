@@ -24,6 +24,11 @@ var descmobile = new Array(
   "assets/imgs/fish/fish-desc/mobile/tuna-text-mob.png"
 );
 
+$(".left").attr("draggable", false);
+$(".right").attr("draggable", false);
+$("wrapper").attr("draggable", false);
+$("*").attr("draggable", false);
+
 // EVERYTHING IS IN THIS FUNCTION
 $(document).ready(function () {
   $(window).resize(function () {
@@ -48,90 +53,15 @@ $(document).ready(function () {
   // DESKTOP SLIDERS
   const desktop = window.matchMedia("(min-width: 1000px)");
   if (desktop.matches) {
-    // MAPMOON
-    // OPENS
-    $(".left__mapmoon").click(function () {
-      $("#mapmoon").animate({ right: 0 });
-      //
-      $("#bedford-pizzeria").animate({ right: -wi });
-      $("#love-project").animate({ right: -wi });
-      $("#ban-bomb").animate({ right: -wi });
-      $("#final-hope-medical").animate({ right: -wi });
-      //
-    });
-    // CLOSES
-    $("#mapmoon-close").click(function () {
-      $("#mapmoon").animate({ right: -wi });
-      //
-    });
+    $(function () {
+      $(".showSingle").click(function () {
+        $(".targetDiv").animate({ right: -wi });
+        $("#div" + $(this).attr("target")).animate({ right: 0 });
+      });
 
-
-    // BEDFORD
-    // OPENS
-    $(".left__bedford-pizzeria").click(function () {
-      $("#bedford-pizzeria").animate({ right: 0 });
-      //
-      $("#mapmoon").animate({ right: -wi });
-      $("#love-project").animate({ right: -wi });
-      $("#ban-bomb").animate({ right: -wi });
-      $("#final-hope-medical").animate({ right: -wi });
-      //
-    });
-    // CLOSES
-    $("#bedford-pizzeria-close").click(function () {
-      $("#bedford-pizzeria").animate({ right: -wi });
-      //
-    });
-
-    // LOVE PROJECT
-    // OPENS
-    $(".left__love-project").click(function () {
-      $("#love-project").animate({ right: 0 });
-      //
-      $("#bedford-pizzeria").animate({ right: -wi });
-      $("#mapmoon").animate({ right: -wi });
-      $("#ban-bomb").animate({ right: -wi });
-      $("#final-hope-medical").animate({ right: -wi });
-      //
-    });
-    // CLOSES
-    $("#love-project-close").click(function () {
-      $("#love-project").animate({ right: -wi });
-      //
-    });
-
-    // BAN THE BOMB
-    // OPENS
-    $(".left__ban-bomb").click(function () {
-      $("#ban-bomb").animate({ right: 0 });
-      //
-      $("#bedford-pizzeria").animate({ right: -wi });
-      $("#love-project").animate({ right: -wi });
-      $("#mapmoon").animate({ right: -wi });
-      $("#final-hope-medical").animate({ right: -wi });
-      //
-    });
-    // CLOSES
-    $("#ban-bomb").click(function () {
-      $("#ban-bomb").animate({ right: -wi });
-      //
-    });
-
-    // FINAL HOPE MEDICAL
-    // OPENS
-    $(".left__final-hope-medical").click(function () {
-      $("#final-hope-medical").animate({ right: 0 });
-      //
-      $("#bedford-pizzeria").animate({ right: -wi });
-      $("#love-project").animate({ right: -wi });
-      $("#ban-bomb").animate({ right: -wi });
-      $("#mapmoon").animate({ right: -wi });
-      //
-    });
-    // CLOSES
-    $("#final-hope-medical").click(function () {
-      $("#final-hope-medical").animate({ right: -wi });
-      //
+      $(".left__slider-header").click(function () {
+        $(".targetDiv").animate({ right: -wi });
+      });
     });
 
     function fishDescArray() {
@@ -152,45 +82,16 @@ $(document).ready(function () {
   // PHONE SLIDERS
   const phone = window.matchMedia("(max-width: 1000px)");
   if (phone.matches) {
-    $(".left__mapmoon").click(function () {
-      $("#mapmoon").animate({ right: 0, width: wi });
-    });
-    $("#mapmoon-close").click(function () {
-      $("#mapmoon").animate({ right: -wi, width: wi });
-    });
+    $(function () {
+      $(".showSingle").click(function () {
+        $(".targetDiv").animate({ right: -wi, width: wi });
+        $("#div" + $(this).attr("target")).animate({ right: 0, width: wi });
+      });
 
-
-    $(".left__bedford-pizzeria").click(function () {
-      $("#bedford-pizzeria").animate({ right: 0, width: wi });
+      $(".left__slider-header").click(function () {
+        $(".targetDiv").animate({ right: -wi, width: wi });
+      });
     });
-    $("#bedford-pizzeria-close").click(function () {
-      $("#bedford-pizzeria").animate({ right: -wi, width: wi });
-    });
-
-
-    $(".left__love-project").click(function () {
-      $("#love-project").animate({ right: 0, width: wi });
-    });
-    $("#love-project-close").click(function () {
-      $("#love-project").animate({ right: -wi, width: wi });
-    });
-
-
-    $(".left__ban-bomb").click(function () {
-      $("#ban-bomb").animate({ right: 0, width: wi });
-    });
-    $("#ban-bomb-close").click(function () {
-      $("#ban-bomb").animate({ right: -wi, width: wi });
-    });
-
-
-    $(".left__final-hope-medical").click(function () {
-      $("#final-hope-medical").animate({ right: 0, width: wi });
-    });
-    $("#final-hope-medical-close").click(function () {
-      $("#final-hope-medical").animate({ right: -wi, width: wi });
-    });
-
 
     $(".left__menu").click(function (e) {
       $(".right__contact").toggle();

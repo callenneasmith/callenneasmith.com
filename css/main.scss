@@ -7,11 +7,31 @@ body {
   background-color: var(--offwhite);
   font-family: "NeueHaasRoman";
   height: 100%;
+  overflow: hidden;
+  cursor: url("../assets/cursor.svg") 10 10, auto;
 }
 
 ::selection {
-  background: var(--richblack);
-  color: var(--offwhite);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.p5Canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9995;
+  pointer-events: none;
+  @include media("<=phone") {
+    z-index: -9999;
+    display: none;
+  }
 }
 
 .wrapper {
@@ -151,7 +171,6 @@ body {
     z-index: 999;
     @include media("<=phone") {
       display: block;
-      cursor: pointer;
     }
   }
   &__line {
@@ -171,7 +190,6 @@ body {
     font-family: "NeueHaasRoman";
     @include media("<=phone") {
       display: none;
-      cursor: pointer;
     }
   }
 
@@ -212,7 +230,7 @@ body {
     box-shadow: 10px 0px 10px var(--grey);
     top: 0;
     right: -50vw;
-    z-index: 999;
+    z-index: 9999;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -245,7 +263,6 @@ body {
     padding: 15px;
     font-size: var(--copy-titles);
     border-right: 1px solid var(--richblack);
-    cursor: pointer;
   }
   &__slider-titles {
     display: flex;
@@ -374,7 +391,6 @@ body {
     width: 100%;
     font-size: var(--copy-size);
     list-style: none;
-    cursor: pointer;
   }
 
   &__project-item {
@@ -384,11 +400,10 @@ body {
     display: flex;
     position: relative;
     align-items: center;
-    cursor: inherit;
+
     transition: all 0.2s ease 0s;
 
     &--active {
-      cursor: initial;
       text-transform: uppercase;
       font-size: var(--copy-titles);
       font-family: "HappyTimesRegular";
@@ -463,7 +478,6 @@ body {
     list-style: none;
     width: 100%;
     list-style: none;
-    cursor: pointer;
   }
 
   &__contact-container:first-child {
@@ -523,7 +537,6 @@ body {
     width: 100%;
     font-size: var(--copy-size);
     list-style: none;
-    cursor: pointer;
   }
 
   &__pub-item {
@@ -533,7 +546,6 @@ body {
     display: flex;
     align-items: center;
     &--active {
-      cursor: initial;
       text-transform: uppercase;
       font-size: var(--copy-titles);
       font-family: "HappyTimesRegular";
@@ -580,7 +592,6 @@ body {
 
   &__misc-item {
     &--active {
-      cursor: initial;
       text-transform: uppercase;
       font-size: var(--copy-titles);
       font-family: "HappyTimesRegular";

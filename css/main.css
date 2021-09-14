@@ -131,12 +131,15 @@ section {
 }
 
 *,
-:after,
-:before {
+*::after,
+*::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   border-color: #e2e8f0;
   overflow-wrap: break-word;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
 }
 
 * {
@@ -165,16 +168,53 @@ body {
   background-color: var(--offwhite);
   font-family: "NeueHaasRoman";
   height: 100%;
+  overflow: hidden;
+  cursor: url("../assets/cursor.svg") 10 10, auto;
 }
 
 ::-moz-selection {
-  background: var(--richblack);
-  color: var(--offwhite);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 ::selection {
-  background: var(--richblack);
-  color: var(--offwhite);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.p5Canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9995;
+  pointer-events: none;
+}
+
+@media (max-width: 1000px) {
+  .p5Canvas {
+    z-index: -9999;
+    display: none;
+  }
 }
 
 .wrapper {
@@ -383,7 +423,6 @@ body {
 @media (max-width: 1000px) {
   .left__menu {
     display: block;
-    cursor: pointer;
   }
 }
 
@@ -407,7 +446,6 @@ body {
 @media (max-width: 1000px) {
   .left__menu-x {
     display: none;
-    cursor: pointer;
   }
 }
 
@@ -461,7 +499,7 @@ body {
           box-shadow: 10px 0px 10px var(--grey);
   top: 0;
   right: -50vw;
-  z-index: 999;
+  z-index: 9999;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,7 +546,6 @@ body {
   padding: 15px;
   font-size: var(--copy-titles);
   border-right: 1px solid var(--richblack);
-  cursor: pointer;
 }
 
 .left__slider-titles {
@@ -624,8 +661,7 @@ body {
 }
 
 .left__slider-info {
-  width: 100%;
-  padding-left:20px;
+  width: 66%;
   float: right;
   text-align: left;
   margin-left: auto;
@@ -691,7 +727,6 @@ body {
   width: 100%;
   font-size: var(--copy-size);
   list-style: none;
-  cursor: pointer;
 }
 
 .left__project-item {
@@ -705,13 +740,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  cursor: inherit;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
 }
 
 .left__project-item--active {
-  cursor: initial;
   text-transform: uppercase;
   font-size: var(--copy-titles);
   font-family: "HappyTimesRegular";
@@ -803,7 +836,6 @@ body {
   list-style: none;
   width: 100%;
   list-style: none;
-  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
@@ -875,7 +907,6 @@ body {
   width: 100%;
   font-size: var(--copy-size);
   list-style: none;
-  cursor: pointer;
 }
 
 .right__pub-item {
@@ -891,7 +922,6 @@ body {
 }
 
 .right__pub-item--active {
-  cursor: initial;
   text-transform: uppercase;
   font-size: var(--copy-titles);
   font-family: "HappyTimesRegular";
@@ -947,7 +977,6 @@ body {
 }
 
 .right__misc-item--active {
-  cursor: initial;
   text-transform: uppercase;
   font-size: var(--copy-titles);
   font-family: "HappyTimesRegular";
