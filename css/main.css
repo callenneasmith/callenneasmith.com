@@ -200,7 +200,7 @@ body {
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-.p5Canvas {
+canvas {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -211,7 +211,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .p5Canvas {
+  canvas {
     z-index: -9999;
     display: none;
   }

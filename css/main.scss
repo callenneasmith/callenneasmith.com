@@ -20,7 +20,7 @@ body {
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-.p5Canvas {
+canvas {
   position: absolute;
   top: 0;
   bottom: 0;
