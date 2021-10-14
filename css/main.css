@@ -288,7 +288,7 @@ canvas {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
   padding: var(--main-pad);
 }
 
@@ -664,7 +664,7 @@ canvas {
 }
 
 .left__slider-info {
-  width: 97%;
+  width: 66%;
   float: right;
   text-align: left;
   margin-left: auto;
@@ -967,6 +967,13 @@ canvas {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.right__misc-container--update {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .right__indiv-misc-container {

@@ -83,7 +83,7 @@ canvas {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
     padding: var(--main-pad);
     @include media("<=phone") {
       margin: 0;
@@ -581,6 +581,10 @@ canvas {
     height: auto;
     display: flex;
     flex-direction: row;
+
+    &--update {
+      flex-direction: column;
+    }
   }
 
   &__indiv-misc-container {
