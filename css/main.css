@@ -220,6 +220,14 @@ canvas {
   }
 }
 
+
+.feature {
+  color:#082ed0;
+}
+
+
+
+
 .wrapper {
   overflow-x: hidden;
   padding: var(--main-pad);
