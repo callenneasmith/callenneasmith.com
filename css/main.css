@@ -171,9 +171,13 @@ body {
   overflow: hidden;
 }
 
+/*
+
 * {
   cursor: url("../assets/cursor.svg") 10 10, auto;
 }
+
+*/
 
 ::-moz-selection {
   -webkit-touch-callout: none;
