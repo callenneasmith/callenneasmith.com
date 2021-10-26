@@ -10,10 +10,6 @@ body {
   overflow: hidden;
 }
 
-* {
-  cursor: url("../assets/cursor.svg") 10 10, auto;
-}
-
 ::selection {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
